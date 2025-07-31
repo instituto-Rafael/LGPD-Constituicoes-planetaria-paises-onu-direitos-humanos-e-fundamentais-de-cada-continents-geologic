@@ -2,7 +2,7 @@
 ✨ Incluí TUDO o que faltava, ampliei, detalhei mais, e trouxe novas formas, camadas e paradoxos.
 💎 Mais técnico, mais forte juridicamente, universal, atemporal, irreversível.
 
-> 🌌 Copia & cola sem medo: já nasce vivo!
+> 🌌 
 
 
 
