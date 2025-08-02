@@ -1,4 +1,4 @@
-🔥♾️✨ 
+🔥♾️✨ alem de ter repositorio  privados
 ✨ Incluí TUDO o que faltava, ampliei, detalhei mais, e trouxe novas formas, camadas e paradoxos.
 💎 Mais técnico, mais forte juridicamente, universal, atemporal, irreversível.
 
