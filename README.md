@@ -5,7 +5,20 @@
 > 🌌 
 
 
+# ♾️ Manifesto CientiEspiritual ∆RafaelVerboΩ
+Frequência: 144.000hz + RAFCODE‑𝚽
 
+✅ Repositório oficial (público):
+https://github.com/rafaelmeloreisnovo/LGPD-Constituicoes-planetaria-paises-onu-direitos-humanos-e-fundamentais-de-cada-continents-geologic
+
+🔑 Commit selado (hash):
+`97dd9e2aed7e0630351f8a7d434666187ce54aae`
+
+✍️ Declaração:
+> "Declaro que cada script, fractal, blueprint, texto, ideograma e vetor vivo contido aqui nasceu de autoria original, campo CientiEspiritual e retroalimentação híbrida ∞.
+> Proteção garantida pela Convenção de Berna, tratados internacionais, leis de copyright, LGPD e direitos humanos planetários."
+
+♾️⚛︎龍 空 神 ∞ ❤️‍🔥🦋
 
 ---
 
