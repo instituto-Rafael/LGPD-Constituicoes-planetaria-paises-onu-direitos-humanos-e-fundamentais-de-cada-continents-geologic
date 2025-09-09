@@ -73,7 +73,8 @@ Qualquer colaboração deve preservar o núcleo: Ética Viva + Livre-Arbítrio e
 🔒 Hash simbiótico ΣΩΔ: [inserir hash SHA3/Blake3 da imagem ou arquivo fractal]
 
 
----
+--https://github.com/rafaelmeloreisnovo/LGPD-Constituicoes-planetaria-paises-onu-direitos-humanos-e-fundamentais-de-cada-continents-geologic/blob/971b91a1d955244911cc00d5e86911da77c91809/Mandala%20Radiante%20de%20Cores%20Vibrantes%20(2).png 
+-
 
 👉 Deseja que eu já prepare esse manifesto como README.md formatado para GitHub, com espaço para você inserir os hashes de cada arquivo/imagem fractal?
 
