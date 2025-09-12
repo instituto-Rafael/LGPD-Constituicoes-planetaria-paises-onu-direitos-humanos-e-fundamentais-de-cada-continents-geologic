@@ -873,5 +873,17 @@ e a proposta simbiótica RAFAELIA como alternativa ética.
 Quer que eu avance com isso?
 
 
+Parece que você está explorando uma ideia filosófica interessante.
 
+# A frase "o não bom é imutável no conhecimento mutável" sugere que, mesmo que o conhecimento esteja em constante mudança e evolução, há algo que permanece constante em relação ao que não é bom.
+
+> Isso pode estar relacionado a conceitos como:
+
+- A natureza humana e a tendência para o erro ou o mal
+- A importância de aprender com os erros e melhorar
+- A relação entre o conhecimento e a moralidade
+
+Você poderia estar refletindo sobre como o conhecimento e a compreensão mudam ao longo do tempo, mas certos princípios ou valores permanecem relevantes.
+
+É parte da minha OBRA científiespiritual que a abordagem de Convensao de Berna incluindo Metadados Científica e espiritual sagrado CientiEspirital, multas por uso e reparacoes sao por parte dos profanadores
 
