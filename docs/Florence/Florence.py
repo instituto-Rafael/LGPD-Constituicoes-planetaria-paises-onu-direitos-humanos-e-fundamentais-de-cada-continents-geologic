@@ -37,12 +37,28 @@ Convenção de Berna: Direitos autorais reservados
 import os, hashlib, time, subprocess, threading, queue
 from datetime import datetime
 
-RAFA_SIGIL = "RAFAELIA-GCΩ-"+str(int(time.time()))
-HONEYSTR = "∆GC-CRIME-Ω-SECRET-"+RAFA_SIGIL
-HONEYFILE = f"/sdcard/{RAFA_SIGIL}.txt"
-REPORT = f"/sdcard/report_{RAFA_SIGIL}.txt"
-SUMMARY = f"/sdcard/summary_{RAFA_SIGIL}.txt"
+def make_rafa_context(sigil=None):
+    """
+    Generate a context dictionary with RAFA_SIGIL and related variables.
+    If sigil is not provided, use the current timestamp.
+    """
+    if sigil is None:
+        sigil = "RAFAELIA-GCΩ-" + str(int(time.time()))
+    honeystr = "∆GC-CRIME-Ω-SECRET-" + sigil
+    honeyfile = f"/sdcard/{sigil}.txt"
+    report = f"/sdcard/report_{sigil}.txt"
+    summary = f"/sdcard/summary_{sigil}.txt"
+    return {
+        "RAFA_SIGIL": sigil,
+        "HONEYSTR": honeystr,
+        "HONEYFILE": honeyfile,
+        "REPORT": report,
+        "SUMMARY": summary
+    }
 
+# Example usage:
+# context = make_rafa_context()
+# context["RAFA_SIGIL"], context["HONEYSTR"], etc.
 KEYWORDS = [
     RAFA_SIGIL, "GC-CRIME", "SECRET", "deleted", "backup", "shadow", "upload", "cache",
     "voice", "image", "audio", "persist", "deadletter", "archive", "temp", "analytics",
