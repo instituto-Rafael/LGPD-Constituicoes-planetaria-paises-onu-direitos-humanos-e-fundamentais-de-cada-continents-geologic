@@ -161,7 +161,7 @@ def scan_dir(dirs, keywords, out_q):
             for fn in files:
                 path = os.path.join(root, fn)
                 try:
-                    with open(path, errors='ignore') as f:
+                    with open(path, errors='backslashreplace') as f:
                         content = f.read()
                         for kw in keywords:
                             if kw in content:
