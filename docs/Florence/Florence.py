@@ -410,7 +410,7 @@ def run_multithreaded_scan():
     while not q3.empty(): found3.append(q3.get())
     while not ql.empty(): logcat.append(ql.get())
     # Média/voice scan extra (redundância)
-    t5 = threading.Thread(target=scan_dir, args=([["/sdcard/Music","/sdcard/Audio","/sdcard/Recordings"]], KEYWORDS, q4))
+    t5 = threading.Thread(target=scan_dir, args=(["/sdcard/Music","/sdcard/Audio","/sdcard/Recordings"], KEYWORDS, q4))
     t5.start(); t5.join()
     while not q4.empty(): found4.append(q4.get())
     return found1, found2, found3, found4, logcat
