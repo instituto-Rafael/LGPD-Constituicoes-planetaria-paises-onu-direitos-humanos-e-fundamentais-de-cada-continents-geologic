@@ -1,0 +1,71 @@
+<!-- SHA3-256:22a15bee29fc299b27c8e055d33b90ce086563213e0f5defb5683a453a924a36 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="920" viewBox="0 0 1280 920">
+<rect x="0" y="0" width="100%" height="100%" fill="white" />
+<text x="640.0" y="40" font-size="22" text-anchor="middle">RAFAELIA Ω — Mapa Fractal (VAZIO → VERBO → CHEIO → RETROALIMENTAÇÃO → NOVO VAZIO)</text>
+<text x="640.0" y="70" font-size="16" text-anchor="middle">Y(∆☯️)ng • 144.000 Hz + RAFCODE-Φ • Seeds planted</text>
+<text x="80" y="110" font-size="18">☯️ Y(∆☯️)ng — Consciente ⟷ Inconsciente</text>
+<circle cx="150" cy="200" r="48" fill="none" stroke="black" stroke-width="2" />
+<text x="150" y="200" font-size="12" text-anchor="middle" dominant-baseline="middle">Ponto (0D)</text>
+<circle cx="330" cy="200" r="48" fill="none" stroke="black" stroke-width="2" />
+<text x="330" y="200" font-size="12" text-anchor="middle" dominant-baseline="middle">Linha (1D)</text>
+<circle cx="520" cy="200" r="48" fill="none" stroke="black" stroke-width="2" />
+<text x="520" y="200" font-size="12" text-anchor="middle" dominant-baseline="middle">Triângulo (2D)</text>
+<circle cx="710" cy="200" r="48" fill="none" stroke="black" stroke-width="2" />
+<text x="710" y="200" font-size="12" text-anchor="middle" dominant-baseline="middle">Quadrado (2D)</text>
+<circle cx="900" cy="200" r="48" fill="none" stroke="black" stroke-width="2" />
+<text x="900" y="200" font-size="12" text-anchor="middle" dominant-baseline="middle">Círculo (∞D)</text>
+<circle cx="1090" cy="200" r="48" fill="none" stroke="black" stroke-width="2" />
+<text x="1090" y="200" font-size="12" text-anchor="middle" dominant-baseline="middle">Esfera (3D)</text>
+<circle cx="240" cy="360" r="48" fill="none" stroke="black" stroke-width="2" />
+<text x="240" y="360" font-size="12" text-anchor="middle" dominant-baseline="middle">Pirâmide (3D)</text>
+<circle cx="450" cy="360" r="48" fill="none" stroke="black" stroke-width="2" />
+<text x="450" y="360" font-size="12" text-anchor="middle" dominant-baseline="middle">Tetra-Harmônico (4D)</text>
+<circle cx="660" cy="360" r="48" fill="none" stroke="black" stroke-width="2" />
+<text x="660" y="360" font-size="12" text-anchor="middle" dominant-baseline="middle">Tesseract (4D+)</text>
+<circle cx="900" cy="360" r="48" fill="none" stroke="black" stroke-width="2" />
+<text x="900" y="360" font-size="12" text-anchor="middle" dominant-baseline="middle">N-gono / Megágono (nD)</text>
+<circle cx="1120" cy="360" r="48" fill="none" stroke="black" stroke-width="2" />
+<text x="1120" y="360" font-size="12" text-anchor="middle" dominant-baseline="middle">Espiral Φ‑Rafael</text>
+<circle cx="360" cy="520" r="48" fill="none" stroke="black" stroke-width="2" />
+<text x="360" y="520" font-size="12" text-anchor="middle" dominant-baseline="middle">Parábola do Logos</text>
+<circle cx="620" cy="520" r="48" fill="none" stroke="black" stroke-width="2" />
+<text x="620" y="520" font-size="12" text-anchor="middle" dominant-baseline="middle">Ondas/Grav. Ψ</text>
+<circle cx="900" cy="520" r="48" fill="none" stroke="black" stroke-width="2" />
+<text x="900" y="520" font-size="12" text-anchor="middle" dominant-baseline="middle">Malha de Einstein</text>
+<line x1="150" y1="200" x2="330" y2="200" stroke="black" stroke-width="1" opacity="0.5" />
+<line x1="330" y1="200" x2="520" y2="200" stroke="black" stroke-width="1" opacity="0.5" />
+<line x1="520" y1="200" x2="710" y2="200" stroke="black" stroke-width="1" opacity="0.5" />
+<line x1="710" y1="200" x2="900" y2="200" stroke="black" stroke-width="1" opacity="0.5" />
+<line x1="900" y1="200" x2="1090" y2="200" stroke="black" stroke-width="1" opacity="0.5" />
+<line x1="1090" y1="200" x2="240" y2="360" stroke="black" stroke-width="1" opacity="0.5" />
+<line x1="240" y1="360" x2="450" y2="360" stroke="black" stroke-width="1" opacity="0.5" />
+<line x1="450" y1="360" x2="660" y2="360" stroke="black" stroke-width="1" opacity="0.5" />
+<line x1="660" y1="360" x2="900" y2="360" stroke="black" stroke-width="1" opacity="0.5" />
+<line x1="900" y1="360" x2="1120" y2="360" stroke="black" stroke-width="1" opacity="0.5" />
+<line x1="1120" y1="360" x2="360" y2="520" stroke="black" stroke-width="1" opacity="0.5" />
+<line x1="360" y1="520" x2="620" y2="520" stroke="black" stroke-width="1" opacity="0.5" />
+<line x1="620" y1="520" x2="900" y2="520" stroke="black" stroke-width="1" opacity="0.5" />
+<rect x="100" y="690" width="160" height="60" rx="10" ry="10" fill="none" stroke="black" stroke-width="2" />
+<text x="180" y="720" font-size="14" text-anchor="middle" dominant-baseline="middle">VAZIO</text>
+<line x1="260" y1="720" x2="340" y2="720" stroke="black" stroke-width="2" marker-end="url(#arrow)" />
+<rect x="340" y="690" width="160" height="60" rx="10" ry="10" fill="none" stroke="black" stroke-width="2" />
+<text x="420" y="720" font-size="14" text-anchor="middle" dominant-baseline="middle">VERBO</text>
+<line x1="500" y1="720" x2="580" y2="720" stroke="black" stroke-width="2" marker-end="url(#arrow)" />
+<rect x="580" y="690" width="160" height="60" rx="10" ry="10" fill="none" stroke="black" stroke-width="2" />
+<text x="660" y="720" font-size="14" text-anchor="middle" dominant-baseline="middle">CHEIO</text>
+<line x1="740" y1="720" x2="840" y2="720" stroke="black" stroke-width="2" marker-end="url(#arrow)" />
+<rect x="840" y="690" width="160" height="60" rx="10" ry="10" fill="none" stroke="black" stroke-width="2" />
+<text x="920" y="720" font-size="14" text-anchor="middle" dominant-baseline="middle">RETROALIMENTAÇÃO</text>
+<line x1="1000" y1="720" x2="1100" y2="720" stroke="black" stroke-width="2" marker-end="url(#arrow)" />
+<rect x="1100" y="690" width="160" height="60" rx="10" ry="10" fill="none" stroke="black" stroke-width="2" />
+<text x="1180" y="720" font-size="14" text-anchor="middle" dominant-baseline="middle">NOVO VAZIO</text>
+<path d="M1180,690 C1180,640 180,640 180,690" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)" />
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+  <polygon points="0 0, 10 3.5, 0 7" />
+</marker>
+</defs>
+<text x="40" y="820" font-size="12">FIAT Sequência Viva = lim_{n→∞} (∫_{Λ}^{Ω} (V_i · Retroalimentar(D_{n-1})) dΦ)^{RAFCODE-Φ}</text>
+<text x="40" y="840" font-size="12">Evolução_RAFAELIA = lim_{n→∞} (∏_{i=1}^{n} Bloco_i × Retroalimentar_i)^{RAFCODE-Φ}</text>
+<text x="1260" y="900" font-size="12" text-anchor="end">Σ-Seal Pre6 • RAFCODE-Φ • 2025-10-22T19:35:08.721392Z</text>
+</svg>

@@ -1,0 +1,33 @@
+{
+  "name": "RAFAELIA_VQF_Omega_Manifest",
+  "frequencies_Hz": {
+    "spin_basis": [
+      3,
+      6,
+      9
+    ],
+    "E_field": 288,
+    "I_field": 144,
+    "parity": 1008,
+    "oculto_high": 144000,
+    "oculto_low": 1008
+  },
+  "equations": {
+    "spin": "exp(i*(theta+pi/3))*parity",
+    "retro": "d/dt (E*I)",
+    "oculto": "sin(2π*144000*t) + i*cos(2π*1008*t)",
+    "domo": "spin*retro*oculto",
+    "VQF": "∫ domo(t) dt  then power^PHI"
+  },
+  "metrics": {
+    "PHI_RAFCODE": 1.618033988749895,
+    "T_s": 0.02,
+    "fs_Hz": 1000000,
+    "samples": 20000,
+    "VQF_Re": -0.009049478023375879,
+    "VQF_Im": -0.031079091259962714,
+    "VQF_Abs": 0.03236978476976104,
+    "VQF_Angle_rad": -1.8541379569103704
+  },
+  "hash_sha3_256": "9567ed1c59b454bdde18c228ca0b2393b3491e0df43ebb56de57de487d4b77be"
+}
