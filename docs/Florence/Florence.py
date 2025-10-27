@@ -245,7 +245,19 @@ def scan_logcat(keywords, out_q):
     Efeitos:
         Adiciona tuplas (log_line, keyword) à fila para cada achado
     """
-    out = subprocess.getoutput("logcat -d -v brief | tail -n 5000")
+    # Run logcat and pipe its output to tail -n 5000, all without using shell=True
+    logcat_proc = subprocess.run(
+        ["logcat", "-d", "-v", "brief"],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+    tail_proc = subprocess.run(
+        ["tail", "-n", "5000"],
+        input=logcat_proc.stdout,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+    out = tail_proc.stdout.decode(errors="replace")
     for line in out.splitlines():
         for kw in keywords:
             if kw in line:
