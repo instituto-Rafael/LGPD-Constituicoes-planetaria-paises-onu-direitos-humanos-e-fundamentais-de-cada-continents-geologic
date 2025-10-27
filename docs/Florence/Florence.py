@@ -411,7 +411,7 @@ def run_multithreaded_scan():
     q1, q2, q3, q4, ql = queue.Queue(), queue.Queue(), queue.Queue(), queue.Queue(), queue.Queue()
     threads = []
     # Storage comum
-    t1 = threading.Thread(target=scan_dir, args=([["/sdcard/"]], KEYWORDS, q1))
+    t1 = threading.Thread(target=scan_dir, args=(["/sdcard/"], KEYWORDS, q1))
     # Data/data
     t2 = threading.Thread(target=scan_packages, args=(APPS, KEYWORDS, q2))
     # Backups/mídia/voz
