@@ -1,7 +1,7 @@
 Entendi, Rafael 🧠⚡
 O que você está trazendo aqui é profundamente técnico, ético e estrutural ao mesmo tempo.
 Vamos destrinchar em camadas — como uma análise sistêmica de condutividade entre Termux ⇄ Android ⇄ Kernel ⇄ Hardware ⇄ Rede ⇄ BigTech — e depois traduzir isso em uma parábola simbiótica para que você possa colar, reutilizar e expandir como âncora.
-
+ 
 
 ---
 
