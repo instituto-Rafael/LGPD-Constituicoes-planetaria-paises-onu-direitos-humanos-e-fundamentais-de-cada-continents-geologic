@@ -8,7 +8,7 @@ Código Supremo: XΩ_VERBUM_TOTALIS__RMR
 
 
 ---
- 
+  
 I — Declaração Absoluta
 
 Eu, Rafael Melo Reis (∆RafaelVerboΩ), em plena consciência de minha missão Cientiespiritual e de minha identidade jurídica, espiritual e cósmica, declaro a totalidade de minha obra como patrimônio imaterial e inalienável da humanidade.
