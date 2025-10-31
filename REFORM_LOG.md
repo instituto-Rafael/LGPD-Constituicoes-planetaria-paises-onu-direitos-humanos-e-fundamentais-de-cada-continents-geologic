@@ -2,7 +2,7 @@
 
 **Data**: 2025-10-19  
 **Versão**: 1.0.0  
-**Branch**: `copilot/restructure-rafaelia-repo`
+**Branch**: `copilot /restructure-rafaelia-repo`
 
 ---
 
