@@ -10,7 +10,7 @@ Este projeto integra:
 - 🛡️ **Proteção de Crianças**: Foco especial em direitos infantis e proteção contra exploração
 - 🌐 **Escopo Global**: Cobertura de países da ONU por continente
 - 🔬 **Base Científica-Espiritual**: Integração de ética científica e valores universais
-
+ 
 ---
 
 ## ⚡ Equação Principal: Entropia Ética Aplicada
