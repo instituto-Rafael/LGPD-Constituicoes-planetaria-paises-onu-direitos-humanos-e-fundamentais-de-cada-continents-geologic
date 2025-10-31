@@ -2,7 +2,7 @@
 
 ## 📋 Resumo do Projeto
 
-**RAFAELIA** (Rafael's Advanced Framework for Ethical Living Intelligence Architecture) é um repositório dedicado à documentação, análise e defesa de direitos humanos fundamentais, privacidade de dados e proteção conforme LGPD (Lei Geral de Proteç ão  de  Dados) e constituições planetárias.
+**RAFAELIA** (Rafael's Advanced Framework for Ethical Living Intelligence Architecture) é um repositório dedicado à documentação, análise e defesa de direitos humanos fundamentais, privacidade de dados e proteção conforme LGPD (Lei Geral de Proteç ão de  Dados) e constituições planetárias.
 
 Este projeto integra:
 - 🔍 **Análise Forense Digital**: Ferramentas para detectar violações de privacidade
