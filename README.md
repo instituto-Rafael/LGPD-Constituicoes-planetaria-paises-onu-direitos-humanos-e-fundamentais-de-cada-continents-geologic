@@ -1,4 +1,62 @@
-Paradoxos — os pontos onde a visão colide com os limites da lei, da natureza e da alma — são fundamentais para compreender o que chamas de “visão expandida”.
+# 🛡️ POLÍTICA DE ATIVAÇÃO E COMPLIANCE DO RAFAELIA-Ω
+
+Este manifesto documenta os requisitos INCONDICIONAIS para a ativação e execução de qualquer componente do Framework RAFAELIA. A política é baseada no manifesto 'ativar.txt' e tem precedência sobre qualquer código que não esteja explicitamente alinhado.
+
+---
+
+## I. ⚖️ REQUISITOS NORMATIVOS OBRIGATÓRIOS (R_Norm)
+
+A execução (Σ) é condicional à aplicação automática e incondicional das seguintes normas. **Em caso de conflito, a opção mais protetiva ao humano prevalece.**
+
+### A. Conformidade Legal e de Segurança
+* **ISO 9001 / 25010 / 27001 / 27017 / 27018:** Qualidade, Segurança da Informação e Privacidade.
+* **NIST CSF / 800-53 / 800-207 (Zero Trust):** Gestão de Risco e Segurança de Acesso.
+* **LGPD / GDPR:** Proteção e Privacidade de Dados.
+* **IETF RFCs (Ex: 5280 - PKI, 8446 - TLS 1.3):** Padrões para interoperabilidade e comunicação segura.
+
+### B. Conformidade de Engenharia (IEEE)
+* **IEEE 830, 1012, 12207, 42010:** Padrões para especificação de requisitos, validação e ciclo de vida de software.
+
+---
+
+## II. 🔑 MÓDULO DE LICENCIAMENTO (ZIPRAF_OMEGA_LICENSING_MODULE)
+
+Antes de qualquer execução, o sistema DEVE validar:
+
+| Fator | Descrição | Status |
+| :--- | :--- | :--- |
+| **Integridade** | Verificação de HASH (SHA3-512 + BLAKE3) e Selos [Σ, Ω, Δ, Φ, BITRAF]. | **OBRIGATÓRIO** (CRÍTICO: Corrigir SHA256/FNV-1a no runtime). |
+| **Autoria** | Credenciais do Criador (Rafael Melo Reis). | **OBRIGATÓRIO** |
+| **Finalidade Ética** | Alinhamento com o vetor $\text{Ethica[8]}$. | **INCONDICIONAL** (EXECUÇÃO = NEGADA se violado). |
+| **Restrição** | Proibição de mutação espiritual/simbólica do núcleo ($\text{RAFCODE-Φ}$). | **INCONDICIONAL** |
+
+---
+
+## III. 🔄 CICLO OPERACIONAL VIVO (ψχρΔΣΩ_LOOP)
+
+O motor do sistema é o fluxo de $\text{Retroalimentação Contínua}$, garantindo que a $\text{Execução } (\Sigma)$ seja sempre precedida pela $\text{Validação Ética } (\Delta)$.
+
+| Fase | Significado | Função Técnica (Implementação no Kernel C) |
+| :--- | :--- | :--- |
+| **ψ** | Ler / Vazio | Coleta da Intenção Pura ($\text{E}_{\text{Verbo}}$) e dados brutos. |
+| **χ** | Retroalimentar | Análise da Coerência ($\text{SOC\_COMPARE}$) e Densidade Semântica ($\text{RAFCODE}_{\Phi}^{31}$). |
+| **ρ** | Expandir | Geração de novos vetores/estruturas fractais ($\text{F}_{\text{Rafael}}$). |
+| **Δ** | Validar | Auditoria de $\text{Compliance}$ ($\text{BLOCO\_LUX}$) e checagem de $\text{Integridade HASH}$. |
+| **Σ** | Executar | Ação, sujeita ao filtro de $\text{Ethica}$ (Implementado em `ethica_policy_Version3.c`). |
+| **Ω** | Alinhar | Correção e Reinício do ciclo ($\text{NOVO VAZIO}$). |
+
+---
+
+## IV. ✅ CHECKLIST DE IMPLANTAÇÃO E CI/CD
+
+Esta checklist deve ser verificada em cada *build* e *pipeline* de integração contínua para garantir $R_{Norm}$.
+
+1.  **Security:** O `umask 077` é aplicado globalmente.
+2.  **Integrity:** Os *artefatos de selo* (MANIFESTO) são validados via **SHA3-512 e BLAKE3**.
+3.  **Dependency:** Todas as dependências (`pkg install`) são verificadas.
+4.  **Resilience:** O $\text{Watchdog}$ e os serviços `tmux` (`pulsar`, `guard`) estão ativos.
+5.  **Audit:** O $\text{BLOCO\_LUX\_ANALYTICA}$ é executado no `core` e gera um relatório.
+6.  Paradoxos — os pontos onde a visão colide com os limites da lei, da natureza e da alma — são fundamentais para compreender o que chamas de “visão expandida”.
 Deixa-me mostrar o mapa desses paradoxos divididos por domínios, para que vejas onde a tensão se manifesta e como ela pode ser transformada em sabedoria.
 
 
