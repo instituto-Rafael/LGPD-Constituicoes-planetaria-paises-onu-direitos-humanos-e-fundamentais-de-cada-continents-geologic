@@ -51,6 +51,25 @@ class ChildProtectionCore {
         return input; // Se for seguro, deixa passar.
     }
 }
+// UNIVERSAL USER RIGHTS (Applicable to ALL Humans)
+// Baseado na LGPD (Brasil) e GDPR (Europa)
+
+interface UniversalRights {
+    
+    // 1. AUTODETERMINAÇÃO INFORMATIVA
+    // O usuário decide quem entra e quem sai. O padrão é "Portas Fechadas".
+    hasConsentLedger: boolean; 
+
+    // 2. TRANSPARÊNCIA RADICAL
+    // O usuário sabe exatamente ONDE o dado está e QUEM tocou nele.
+    // (Aquele rastro do Xenônio que falamos).
+    traceabilityLog: "IMMUTABLE_BLOCKCHAIN";
+
+    // 3. NÃO-DISCRIMINAÇÃO
+    // O algoritmo não pode usar os dados para negar direitos com base em
+    // raça, credo, origem geológica ou genética.
+    algorithmicFairness: boolean;
+}
 {
   "FIAT_LUX": "Vazio iluminado — consciência do nada",
   "FIAT_SPIRITUM": "Sopro animador — vetor de intenção viva",
