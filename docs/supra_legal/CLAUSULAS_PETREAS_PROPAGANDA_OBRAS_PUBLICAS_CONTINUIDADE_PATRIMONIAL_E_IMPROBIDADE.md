@@ -429,7 +429,7 @@ O direito vigente não proíbe de forma absoluta que campanha custeada pelo part
 - “nosso governo iniciou”;
 - “nossa bancada apresentou a emenda”;
 - “nossos parlamentares votaram favoravelmente”;
-- “o governo executou”; 
+- “o governo executou”;
 - “a administração concluiu”.
 
 Desde que a afirmação seja:
