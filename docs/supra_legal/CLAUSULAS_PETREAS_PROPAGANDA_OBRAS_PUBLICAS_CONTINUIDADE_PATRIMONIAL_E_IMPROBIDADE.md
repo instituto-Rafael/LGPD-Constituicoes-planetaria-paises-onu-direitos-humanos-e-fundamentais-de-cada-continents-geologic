@@ -62,7 +62,7 @@ Mas propaganda estatal personalizada pode atingir o núcleo protegido quando int
 
 - igualdade política;
 - liberdade do voto;
-- acesso a informação verdadeira e verificável;
+- acesso à informação verdadeira e verificável;
 - direito de resposta;
 - pluralismo;
 - separação entre Estado e candidatura;
