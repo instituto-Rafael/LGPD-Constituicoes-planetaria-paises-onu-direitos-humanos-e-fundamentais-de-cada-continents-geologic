@@ -1,0 +1,77 @@
+{
+  "case_id": "TOKEN_VAZIO",
+  "heuristics": {
+    "H1": {
+      "score": null,
+      "weight": 1,
+      "evidence": 0,
+      "state": "TOKEN_VAZIO",
+      "notes": "Conformidade direta: licença, experiência recente, jornada, horas e pousos.",
+      "source_refs": []
+    },
+    "H2": {
+      "score": null,
+      "weight": 1,
+      "evidence": 0,
+      "state": "TOKEN_VAZIO",
+      "notes": "Inversa causal: árvore de falhas do dano observado.",
+      "source_refs": []
+    },
+    "H3": {
+      "score": null,
+      "weight": 1,
+      "evidence": 0,
+      "state": "TOKEN_VAZIO",
+      "notes": "Antiderivada temporal: fadiga, ciclos, vida remanescente e recorrência.",
+      "source_refs": []
+    },
+    "H4": {
+      "score": null,
+      "weight": 1,
+      "evidence": 0,
+      "state": "TOKEN_VAZIO",
+      "notes": "Reversa direta: cronologia técnica do evento ao despacho/manutenção.",
+      "source_refs": []
+    },
+    "H5": {
+      "score": null,
+      "weight": 1,
+      "evidence": 0,
+      "state": "TOKEN_VAZIO",
+      "notes": "Reversa indireta: escala, treinamento, pressão e incentivos.",
+      "source_refs": []
+    },
+    "H6": {
+      "score": null,
+      "weight": 1,
+      "evidence": 0,
+      "state": "TOKEN_VAZIO",
+      "notes": "Inclusiva: rede de controle, dever, conhecimento e nexo por ator.",
+      "source_refs": []
+    },
+    "H7": {
+      "score": null,
+      "weight": 1,
+      "evidence": 0,
+      "state": "TOKEN_VAZIO",
+      "notes": "Logarítmica econômica: sinistro, franquia, custo evitado, parada e baseline.",
+      "source_refs": []
+    },
+    "H8": {
+      "score": null,
+      "weight": 1,
+      "evidence": 0,
+      "state": "TOKEN_VAZIO",
+      "notes": "Fractal/Ômega: recorrência em componente, aeronave, frota, piloto, aeroporto, oficina e seguradora.",
+      "source_refs": []
+    }
+  },
+  "hard_gates": {
+    "flight_or_duty_limit_exceeded": false,
+    "component_life_limit_exceeded": false,
+    "return_to_service_missing": false,
+    "required_go_around_not_executed": false,
+    "records_false_or_tampered": false,
+    "intentional_risk_aggravation_evidence": false
+  }
+}
