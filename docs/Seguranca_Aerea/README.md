@@ -10,6 +10,7 @@ Esta pasta reúne a camada técnico-jurídica sobre segurança do passageiro, po
 4. [Template de caso](../../data/seguranca_aerea/audit_case_template.json)
 5. [Régua executável](../../scripts/seguranca_aerea/audit_ruler_8h.py)
 6. [Testes](../../tests/seguranca_aerea/test_audit_ruler_8h.py)
+7. [Validação local, hashes e resultados](../../reports/seguranca_aerea/LOCAL_VALIDATION_20260716.md)
 
 ## Invariantes
 
