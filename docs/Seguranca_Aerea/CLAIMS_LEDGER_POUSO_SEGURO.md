@@ -1,6 +1,9 @@
 # Claims Ledger — Pouso Seguro, Informação e Responsabilidade
 
-**Documento associado:** `SEGURANCA_PASSAGEIRO_POUSO_RESPONSABILIDADE.md`  
+**Documentos associados:**
+- `SEGURANCA_PASSAGEIRO_POUSO_RESPONSABILIDADE.md`
+- `HORAS_MANUTENCAO_SEGURO_REGUA_8_HEURISTICAS.md`
+
 **Regra:** verificação na fonte não equivale a causalidade provada nem a responsabilidade jurídica.  
 **Padrão:** `claim_allowed: false` para acusações individuais ou institucionais sem investigação e nexo causal.
 
@@ -40,12 +43,28 @@
 | AV-C18 | Certificação Bureau Veritas equivale a seguro e garante indenização. | `CONTRADITO_PELAS_FONTES_LOCALIZADAS` | Certificação de gestão e seguro têm objetos distintos. | Documento contratual específico, limitado ao caso. |
 | AV-C19 | Céu claro pode coexistir com térmicas, cisalhamento e turbulência orográfica. | `DERIVADO_TECNICO` | Fenômenos atmosféricos não dependem de nuvem visível. | Dados locais demonstrando atmosfera estável no intervalo considerado. |
 | AV-C20 | O Aeroporto de Lages possui permanentemente o maior fluxo aleatório de vento da região. | `TOKEN_VAZIO` | Não foi produzido estudo comparativo local. | METAR/TAF, rosa dos ventos, topografia e comparação regional. |
-| AV-C21 | O caso de 2010 associado à Xuxa envolveu um Learjet 55 que iria buscá-la. | `VERIFICADO_NA_FONTE` | Jornal do Brasil e Folha descrevem aeronave e missão. | Relatório oficial com identificação diferente. |
+| AV-C21 | O caso de 2010 associado à Xuxa envolveu um Learjet 55 que iria buscá-la. | `VERIFICADO_NA_FONTE` | Fontes jornalísticas localizadas descrevem aeronave e missão. | Relatório oficial com identificação diferente. |
 | AV-C22 | Xuxa estava a bordo na ocorrência de 2010. | `CONTRADITO_PELAS_FONTES_LOCALIZADAS` | Fontes indicam que a aeronave iria buscá-la. | Manifesto de passageiros ou relatório oficial em sentido contrário. |
 | AV-C23 | A aeronave do caso era um Embraer Legacy. | `CONTRADITO_PELAS_FONTES_LOCALIZADAS` | Fontes identificam Learjet 55. | Relatório oficial em sentido contrário. |
 | AV-C24 | Era o primeiro voo do piloto com Xuxa. | `TOKEN_VAZIO` | Nenhuma fonte localizada. | Registro verificável de escala/contrato. |
 | AV-C25 | O piloto tentou impressionar Xuxa com pouso suave e isso causou a excursão. | `NAO_VERIFICADO` | Não há evidência de intenção ou nexo; Xuxa não estava a bordo. | Investigação oficial e evidência direta de motivação/nexo. |
 | AV-C26 | Dados de reclamação, FDM/FOQA e tripulação devem ter governança e minimização. | `DERIVADO_TECNICO` | LGPD, proteção de dados de segurança e cultura justa. | Base legal/procedimento específico que exija tratamento mais amplo. |
+| AV-C27 | A CIV Digital registra experiência e pode ser atualizada pelo piloto, instrutor ou preposto do operador; o Diário de Bordo é o registro primário. | `VERIFICADO_NA_FONTE` | RBAC 61 e IS 61-001. | Alteração normativa ou registro específico em sentido diverso. |
+| AV-C28 | A responsabilidade do piloto por seus registros não elimina o dever do operador de controlar escala, jornada, repouso e limites. | `DERIVADO_TECNICO` | Lei 13.475/2017, RBAC 117 e responsabilidade compartilhada. | Regra que atribua toda a gestão ao tripulante empregado. |
+| AV-C29 | O gerenciamento de fadiga é responsabilidade compartilhada entre operador e tripulante. | `VERIFICADO_NA_FONTE` | IS 117-004 e RBAC 117. | Alteração normativa. |
+| AV-C30 | O operador RBAC 121/135 é o principal responsável pela aeronavegabilidade, inclusive quando contrata manutenção. | `VERIFICADO_NA_FONTE` | RBAC 121.363/135.413 e IS 120-016B. | Alteração normativa ou escopo de operação distinto. |
+| AV-C31 | A organização RBAC 145 responde tecnicamente pelo trabalho e pela liberação de manutenção dentro do seu escopo. | `VERIFICADO_NA_FONTE` | RBAC 145: qualidade, inspeção e retorno ao serviço. | Prova de que o serviço não estava no seu escopo ou não foi executado por ela. |
+| AV-C32 | Uma roda tocar antes da outra não prova, isoladamente, erro do piloto. | `DERIVADO_TECNICO` | Técnica depende de vento, tipo, alinhamento, cargas e manual. | Dados de voo e limites demonstrando técnica incompatível. |
+| AV-C33 | Componente próximo da vida limite não é automaticamente inseguro nem automaticamente coberto pelo seguro. | `DERIVADO_TECNICO` | Vida limite é gate de retirada; cobertura depende da apólice e do evento. | Inspeção/dado mostrando condição insegura ou cláusula específica de cobertura. |
+| AV-C34 | Manutenção programada e desgaste normal não se transformam automaticamente em sinistro de casco. | `DERIVADO_TECNICO` | Distinção entre dano novo, vício, desgaste e interesse segurado. | Apólice específica cobrindo expressamente a despesa. |
+| AV-C35 | Agravamento intencional e relevante do risco pode levar à perda de garantia, observados prova e nexo legal. | `VERIFICADO_NA_FONTE` | Lei 15.040/2024, arts. 13–16 e 69. | Decisão ou cláusula aplicável que preserve cobertura no caso concreto. |
+| AV-C36 | Após indenização de dano, a seguradora pode sub-rogar-se; em regra, não há sub-rogação contra empregado por culpa não grave. | `VERIFICADO_NA_FONTE` | Lei 15.040/2024, arts. 94–95. | Dolo, culpa grave ou estrutura securitária específica. |
+| AV-C37 | Falha de manutenção pode gerar fluxo entre operador, oficina, seguradoras e direito de regresso. | `DERIVADO_TECNICO` | Responsabilidades regulatórias, contratuais e sub-rogação. | Prova de ausência de nexo da manutenção com o dano. |
+| AV-C38 | A régua de oito heurísticas é ferramenta de triagem, não prova científica validada de culpa ou fraude. | `DERIVADO_TECNICO` | Modelo autoral com claim boundary e hard gates. | Validação independente que amplie legitimamente o escopo. |
+| AV-C39 | Dados ausentes devem produzir intervalo de incerteza, não pontuação zero. | `DERIVADO_TECNICO` | Limites inferior/superior preservam TOKEN_VAZIO. | Método validado que trate ausência sem viés e documente a hipótese. |
+| AV-C40 | Hard gate confirmado prevalece sobre a média agregada da régua. | `DERIVADO_TECNICO` | Limite excedido ou retorno ausente não pode ser compensado por média. | Norma específica que autorize mitigação equivalente documentada. |
+| AV-C41 | Companhias alocam deliberadamente pilotos menos experientes e componentes próximos da troca para transferir manutenção ao seguro. | `TOKEN_VAZIO` | Nenhum padrão documental ou estatístico produzido. | Escalas, FDM, manutenção, apólices e pagamentos demonstrando padrão e nexo. |
+| AV-C42 | A companhia possui capacidade estrutural de prevenção maior que a do piloto individual por controlar escala, treinamento, manutenção e recursos. | `DERIVADO_TECNICO` | Distribuição de controle e deveres em RBAC 117, 121 e 135. | Estrutura operacional específica que retire esses controles da companhia. |
 
 ## Relações epistemológicas essenciais
 
@@ -57,6 +76,15 @@ AV-C22 NOT_EVIDENCE_FOR AV-C25
 AV-C02 SUPPORTS AV-C01
 AV-C03 SUPPORTS AV-C11
 AV-C08 SUPPORTS AV-C26
+AV-C27 SUPPORTS AV-C28
+AV-C29 SUPPORTS AV-C28
+AV-C30 DOES_NOT_TRANSFER_TO AV-C31
+AV-C31 CAN_CONTRIBUTE_TO AV-C37
+AV-C33 NOT_EVIDENCE_FOR AV-C41
+AV-C35 CONTRADICTS_AUTOMATIC_BENEFIT AV-C41
+AV-C39 SUPPORTS AV-C38
+AV-C40 SUPPORTS AV-C38
+AV-C42 SUPPORTS AV-C28
 ```
 
 ## Gates antes de promoção
@@ -92,6 +120,21 @@ Exigir:
 - gravação admitida legalmente;
 - evidência de que a intenção alterou a técnica;
 - nexo causal pericial.
+
+### Para promover AV-C41
+
+Exigir análise longitudinal com denominador de exposição:
+
+- escalas e experiência no tipo/aeródromo;
+- horas, ciclos e vida remanescente por componente;
+- FDM/DFDR e go-arounds;
+- eventos de manutenção e retorno ao serviço;
+- apólices, franquias, indenizações e sub-rogação;
+- custos de manutenção programada e indisponibilidade;
+- comparação com frota e operações equivalentes;
+- comunicações internas e governança;
+- preservação de dados e contraditório;
+- método estatístico, incerteza e revisão independente.
 
 Sem esses gates:
 
