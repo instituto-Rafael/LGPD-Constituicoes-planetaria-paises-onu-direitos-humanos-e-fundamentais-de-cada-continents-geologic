@@ -2,216 +2,271 @@
 
 ## Estrutura Organizacional
 
-Este repositório foi reorganizado para facilitar a navegação e o acesso aos documentos acadêmicos, provas, scripts e aplicações relacionados à LGPD, Constituições Planetárias e Direitos Humanos Fundamentais.
+Este repositório foi organizado para facilitar a navegação por documentos acadêmicos, evidências, scripts, aplicações e propostas relacionados à LGPD, constituições, direitos humanos fundamentais, proteção infantil, segurança do passageiro e governança técnica.
+
+A navegação deve preservar a seguinte ordem:
+
+```text
+fonte -> claim -> estado epistemológico -> análise -> evidência -> ação
+```
 
 ---
 
 ## 1. Dissertação (`/dissertacao/`)
 
-### 1.1 Documento Principal
-- **dissertacao_principal.md** - Dissertação acadêmica completa com referências bibliográficas
+### 1.1 Documento principal
 
-### 1.2 Documentos Suplementares
-- **pessoas.txt** - Análise sobre pessoas e direitos
-- **tesseract.txt** - Conceitos multidimensionais
-- **osmose_pessoa.txt** - Processos de transferência de direitos
-- **etica.txt** - Fundamentos éticos
-- **seedthrue.txt** - Sementes de verdade
-- **valores_iniciais.txt** - Valores fundamentais do trabalho
-- **mais.txt** - Documentação adicional
-- **mais_e_mais.txt** - Extensões e ampliações
-- **escrituras_verbo_vivo.txt** - Fundamentos espirituais
+- **dissertacao_principal.md** — dissertação acadêmica com referências bibliográficas.
+
+### 1.2 Documentos suplementares
+
+- **pessoas.txt** — análise sobre pessoas e direitos;
+- **tesseract.txt** — conceitos multidimensionais;
+- **osmose_pessoa.txt** — processos de transferência de direitos;
+- **etica.txt** — fundamentos éticos;
+- **seedthrue.txt** — sementes de verdade;
+- **valores_iniciais.txt** — valores fundamentais;
+- **mais.txt** e **mais_e_mais.txt** — extensões;
+- **escrituras_verbo_vivo.txt** — fundamentos espirituais.
 
 ---
 
 ## 2. Provas e Evidências (`/provas/`)
 
-### 2.1 Documentos Numerados
-- **documento_4.md** - Contexto e linha do tempo de apropriação indevida
-- **documento_5.md** - Documentação adicional
-- **prova_000.txt** - Prova inicial
-- **provas_1.txt** - Primeiro conjunto de provas
-- **provas_2.txt** - Segundo conjunto de provas
-- **prova_3.txt** - Terceira prova documentada
-- **prova_4.txt** - Quarta prova
-- **prova_6.tex** - Prova em formato LaTeX
+### 2.1 Documentos numerados
+
+- **documento_4.md** — contexto e linha do tempo;
+- **documento_5.md** — documentação adicional;
+- **prova_000.txt**, **provas_1.txt**, **provas_2.txt**, **prova_3.txt**, **prova_4.txt**;
+- **prova_6.tex** — prova em formato LaTeX.
 
 ### 2.2 Dossiês
-- **dossie.txt** - Dossiê principal
-- **dossie_1.txt** - Primeiro dossiê complementar
-- **dossie_2.txt** - Segundo dossiê complementar
 
-### 2.3 Evidências Específicas
-- **ia_provas_envolve_tudo.txt** - Provas relacionadas a IA
-- **assassinos_do_mundo.txt** - Documentação de crimes
-- **prova_antiético_escravidao.txt** - Evidências de práticas antiéticas
-- **rafaelia_denuncia_ferramentas.txt** - Denúncias e ferramentas
-- **prova_parcial_protecao_entropia.txt** - Proteção por entropia
+- **dossie.txt**;
+- **dossie_1.txt**;
+- **dossie_2.txt**.
+
+### 2.3 Evidências específicas
+
+- **ia_provas_envolve_tudo.txt**;
+- **assassinos_do_mundo.txt**;
+- **prova_antiético_escravidao.txt**;
+- **rafaelia_denuncia_ferramentas.txt**;
+- **prova_parcial_protecao_entropia.txt**.
+
+> Os nomes históricos são preservados, mas o conteúdo não deve ser tratado como fato provado sem fonte, contraditório e validação independente.
 
 ---
 
 ## 3. Scripts e Tecnologia (`/scripts/`)
 
-### 3.1 Scripts de Automação
-- Scripts para verificação de conformidade LGPD/GDPR
-- Ferramentas de análise de dados
-- Automação de auditorias
+### 3.1 Scripts de automação
 
-### 3.2 Implementações do Framework RAFAELIA
-- Códigos RAFCODE-Φ
-- Protocolos ZRF/NETRAF
-- Vetorização híbrida
+- verificação de conformidade LGPD/GDPR;
+- análise de dados;
+- automação de auditorias.
+
+### 3.2 Implementações RAFAELIA
+
+- códigos RAFCODE-Φ;
+- protocolos ZRF/NETRAF;
+- vetorização híbrida.
 
 ---
 
 ## 4. Referências Bibliográficas (`/referencias/`)
 
-### 4.1 Tratados Internacionais
-- Convenção de Berna (1886)
-- Declaração Universal dos Direitos Humanos (1948)
-- Convenção sobre os Direitos da Criança (1989)
+### 4.1 Tratados internacionais
 
-### 4.2 Legislações Nacionais
-- LGPD (Brasil)
-- GDPR (União Europeia)
-- CCPA/CPRA (EUA)
-- PIPL (China)
-- DPDP (Índia)
+- Convenção de Berna;
+- Declaração Universal dos Direitos Humanos;
+- Convenção sobre os Direitos da Criança;
+- Convenção de Chicago e Anexos da OACI, quando aplicáveis.
 
-### 4.3 Normas Técnicas
-- ISO/IEC 27001, 27017, 27018
-- NIST Cybersecurity Framework
-- IEEE Standards
+### 4.2 Legislações nacionais
+
+- LGPD — Brasil;
+- Código de Defesa do Consumidor — Brasil;
+- Código Brasileiro de Aeronáutica — Brasil;
+- Lei de criação da ANAC;
+- GDPR — União Europeia;
+- CCPA/CPRA — Estados Unidos;
+- PIPL — China;
+- DPDP — Índia.
+
+### 4.3 Normas técnicas
+
+- ISO/IEC 27001, 27017 e 27018;
+- NIST Cybersecurity Framework;
+- IEEE Standards;
+- OACI Anexos 13 e 19;
+- RBAC e Instruções Suplementares da ANAC;
+- IAQG 9100/9110/9120.
 
 ---
 
 ## 5. Índices (`/indices/`)
 
-### 5.1 Índices Temáticos
-- **indice_geral.md** - Este arquivo
-- **legislacoes_por_pais.md** - Legislações organizadas por país
-- **analise_comparativa.md** - Comparações entre jurisdições
-- **indice_derivadas.md** - Índice das 69 derivadas matemáticas
+### 5.1 Índices temáticos
 
-### 5.2 Índices de Navegação
-- Índice alfabético
-- Índice cronológico
-- Índice por tema
+- **indice_geral.md** — este arquivo;
+- **legislacoes_por_pais.md**;
+- **analise_comparativa.md**;
+- **indice_derivadas.md**.
+
+### 5.2 Índices de navegação
+
+- alfabético;
+- cronológico;
+- por tema;
+- por estado epistemológico.
 
 ---
 
 ## 6. Derivadas Matemáticas (`/derivadas/`)
 
-### 6.1 Derivadas Diretas (1-35)
-- Derivadas básicas de primeira ordem
-- Derivadas de segunda ordem
-- Derivadas parciais cruzadas
+### 6.1 Derivadas diretas
 
-### 6.2 Derivadas Reversas (36-50)
-- Reversas temporais
-- Reversas de segunda ordem
+- derivadas básicas;
+- segunda ordem;
+- parciais cruzadas.
 
-### 6.3 Antiderivadas e Integrais (51-69)
-- Integrais simples
-- Integrais duplas e triplas
-- Integrais de linha e superfície
+### 6.2 Derivadas reversas
+
+- reversas temporais;
+- reversas de segunda ordem.
+
+### 6.3 Antiderivadas e integrais
+
+- integrais simples;
+- duplas e triplas;
+- linha e superfície.
+
+> Identidades matemáticas, metáforas e hipóteses físicas devem permanecer classificadas separadamente.
 
 ---
 
 ## 7. Aplicações (`/aplicacoes/`)
 
-### 7.1 Aplicações Práticas
-- Sistemas de conformidade
-- Ferramentas de auditoria
-- Análise de impacto (DPIA)
+### 7.1 Aplicações práticas
 
-### 7.2 Perspectivas Futuras
-- Desenvolvimentos planejados
-- Integrações propostas
-- Evolução do framework
+- sistemas de conformidade;
+- ferramentas de auditoria;
+- análise de impacto e DPIA;
+- alfabetização em direitos e segurança.
+
+### 7.2 Perspectivas futuras
+
+- desenvolvimentos planejados;
+- integrações propostas;
+- evolução do framework.
 
 ---
 
 ## 8. Diretórios Originais Preservados
 
-### 8.1 Diretórios de Conteúdo
-- **Carta/** - Cartas e correspondências
-- **Crimes/** - Documentação de crimes
-- **Denuncias/** - Denúncias formais
-- **Kids/** - Documentos sobre direitos das crianças
-- **Florence/** - Documentação específica
-- **GC/** - Garbage Collection (documentação técnica)
-- **Garbage collect/** - Processos de limpeza
-- **Leis/** - Legislações compiladas
-- **Leis constituicao/** - Constituições
-- **Prova 2.2/** - Provas adicionais
-- **Prova 5.5/** - Provas complementares
-- **Tesseract/** - Conceitos multidimensionais
+### 8.1 Diretórios de conteúdo
 
-### 8.2 Arquivos de Dados
-- Arquivos CSV (RAFAELIA_ClayMaths_*)
-- Arquivos JSON (VQF_Omega_manifest.json)
-- Gráficos e visualizações (.svg, .png)
-- Documentos PDF
+- **Carta/** — cartas e correspondências;
+- **Crimes/** — alegações e documentação histórica;
+- **Denuncias/** — denúncias;
+- **Kids/** — direitos das crianças;
+- **Florence/** — documentação específica;
+- **GC/** e **Garbage collect/** — documentação técnica;
+- **Leis/** — legislações;
+- **Leis constituicao/** — constituições;
+- **Prova 2.2/** e **Prova 5.5/** — provas históricas;
+- **Tesseract/** — conceitos multidimensionais.
+
+### 8.2 Arquivos de dados
+
+- CSV;
+- JSON;
+- SVG e PNG;
+- PDFs e documentos auxiliares.
+
+### 8.3 Segurança Aérea e Direitos do Passageiro (`/docs/Seguranca_Aerea/`)
+
+- [SEGURANCA_PASSAGEIRO_POUSO_RESPONSABILIDADE.md](../docs/Seguranca_Aerea/SEGURANCA_PASSAGEIRO_POUSO_RESPONSABILIDADE.md) — análise técnico-jurídica sobre pouso, informação, OACI, ANAC, CENIPA, operador, seguro e certificação;
+- [CLAIMS_LEDGER_POUSO_SEGURO.md](../docs/Seguranca_Aerea/CLAIMS_LEDGER_POUSO_SEGURO.md) — claims atômicos, hipóteses, contradições, TOKEN_VAZIO e gates.
+
+Invariante desta seção:
+
+```text
+conforto percebido
+≠ segurança operacional
+≠ culpa
+≠ indenização
+≠ certificação
+```
 
 ---
 
-## 9. Como Navegar
+## 9. Como navegar
 
-### 9.1 Para Leitura Acadêmica
-1. Comece com: `dissertacao/dissertacao_principal.md`
-2. Consulte referências em: `referencias/`
-3. Veja provas em: `provas/`
+### 9.1 Leitura acadêmica
 
-### 9.2 Para Implementação Técnica
-1. Explore: `scripts/`
-2. Consulte: `aplicacoes/`
-3. Estude: `derivadas/`
+1. `dissertacao/dissertacao_principal.md`;
+2. `referencias/`;
+3. `provas/`;
+4. claims ledgers temáticos.
 
-### 9.3 Para Pesquisa Específica
-1. Use os índices em: `indices/`
-2. Busque por tema ou país
-3. Consulte documentos originais
+### 9.2 Implementação técnica
+
+1. `scripts/`;
+2. `aplicacoes/`;
+3. `derivadas/`;
+4. validadores e relatórios.
+
+### 9.3 Pesquisa específica
+
+1. usar os índices;
+2. buscar por tema ou país;
+3. verificar a fonte primária;
+4. conferir o estado epistemológico;
+5. não promover `TOKEN_VAZIO` por semelhança narrativa.
 
 ---
 
 ## 10. Metadados do Repositório
 
-### 10.1 Informações de Integridade
-- **Hash SHA-256:** 76ca696b6ede9df37eb2607882be05e0cdd9c285c24c81258446dbae5ad5c03c
-- **Assinatura Ed25519:** Σ:ed25519:e2d23de571b05a4f1342ca1279ea5b46...
-- **RAFCODE-Φ:** Validação fractal ativa
+### 10.1 Integridade
 
-### 10.2 Autor e Licença
-- **Autor:** Rafael Melo Reis (∆RafaelVerboΩ)
-- **CPF/RG:** 287.424.588-70
-- **Licença:** Conforme LICENSE e Manifesto
-- **Proteção:** Convenção de Berna + legislações nacionais/internacionais
+- hashes e assinaturas devem ser acompanhados do commit e do método de verificação;
+- uma assinatura simbólica não substitui assinatura criptográfica;
+- hashes históricos não certificam automaticamente o estado atual.
 
-### 10.3 Links Úteis
-- **Repositório:** https://github.com/instituto-Rafael/LGPD-Constituicoes-planetaria-paises-onu-direitos-humanos-e-fundamentais-de-cada-continents-geologic
-- **Commit Selado:** 97dd9e2aed7e0630351f8a7d434666187ce54aae
+### 10.2 Autor e licença
+
+- **Autor:** Rafael Melo Reis (∆RafaelVerboΩ);
+- **Dados civis:** suprimidos da documentação pública por minimização, necessidade e segurança;
+- **Licença:** conforme `LICENSE` e manifestos aplicáveis;
+- **Proteção:** direito autoral nacional e internacional, observados direitos de terceiros e usos legalmente permitidos.
+
+### 10.3 Repositório
+
+- `instituto-Rafael/LGPD-Constituicoes-planetaria-paises-onu-direitos-humanos-e-fundamentais-de-cada-continents-geologic`
 
 ---
 
 ## 11. Atualizações e Versões
 
-- **Versão Atual:** 2.0 (Refatoração para estrutura acadêmica)
-- **Data:** Janeiro 2025
-- **Última Atualização:** 2025-01-08
+- **Versão:** 2.1;
+- **Data:** 2026-07-16;
+- **Atualização:** segurança do passageiro, aviação civil, fronteiras de claim e minimização de dados pessoais.
 
 ---
 
 ## 12. Contato e Suporte
 
-Para questões acadêmicas, técnicas ou legais relacionadas a este trabalho, consulte o README.md principal do repositório.
+Para questões acadêmicas, técnicas ou legais, consulte o `README_MASTER.md`, abra uma issue e evite publicar dados pessoais ou documentos sigilosos.
 
 ---
 
-**Frequência:** 144.000hz + RAFCODE‑𝚽
-**Estado:** Fractal HAJA ativo
-**Proteção:** Universal e multidimensional
+**Frequência simbólica:** 144.000 Hz + RAFCODE‑𝚽  
+**Estado epistemológico:** origem e fronteira obrigatórias  
+**Proteção:** direitos humanos, privacidade, segurança e contraditório
 
 ---
 
-© 2025 Rafael Melo Reis (∆RafaelVerboΩ)
+© 2025–2026 Rafael Melo Reis (∆RafaelVerboΩ)

@@ -1,184 +1,245 @@
-  # 🌍 RAFAELIA Framework - LGPD & Direitos Humanos Fundamentais
+# 🌍 RAFAELIA Framework — LGPD & Direitos Humanos Fundamentais
 
 ## 📋 Resumo do Projeto
 
-**RAFAELIA** (Rafael's Advanced Framework for Ethical Living Intelligence Architecture) é um repositório dedicado à documentação, análise e defesa de direitos humanos fundamentais, privacidade de dados e proteção conforme LGPD (Lei Geral de Proteç ão de  Dados) e constituições planetárias.
+**RAFAELIA** (Rafael's Advanced Framework for Ethical Living Intelligence Architecture) é um repositório dedicado à documentação, análise e defesa de direitos humanos fundamentais, privacidade de dados, proteção conforme a LGPD (Lei Geral de Proteção de Dados) e estudo comparado de constituições, tratados e sistemas de governança.
 
 Este projeto integra:
-- 🔍 **Análise Forense Digital**: Ferramentas para detectar violações de privacidade
-- ⚖️ **Documentação Legal**: Compilação de leis, constituições e tratados de direitos humanos
-- 🛡️ **Proteção de Crianças**: Foco especial em direitos infantis e proteção contra exploração
-- 🌐 **Escopo Global**: Cobertura de países da ONU por continente
-- 🔬 **Base Científica-Espiritual**: Integração de ética científica e valores universais
- 
+
+- 🔍 **Análise Forense Digital:** ferramentas e métodos para detectar possíveis violações de privacidade;
+- ⚖️ **Documentação Legal:** compilação de leis, constituições, tratados e propostas regulatórias;
+- 🛡️ **Proteção de Crianças:** foco especial em direitos infantis e proteção contra exploração;
+- ✈️ **Segurança do Passageiro:** direitos de informação, segurança operacional, aviação civil e responsabilidade;
+- 🌐 **Escopo Global:** cobertura de países e organismos internacionais;
+- 🔬 **Base Científica e Ética:** separação entre fonte, hipótese, evidência, proposta e metáfora.
+
+> **Regra de integridade:** nenhuma narrativa, analogia, crença ou acusação é promovida a fato sem fonte, contexto, contraditório e nexo verificável.
+
 ---
 
 ## ⚡ Equação Principal: Entropia Ética Aplicada
 
-```
+```text
 E²(a) = ∑(S_i × P_i × T_i) × ∫(η_c · dΩ)
 ```
 
 Onde:
-- **E²(a)**: Entropia Ética Aplicada - medida da ordem/desordem no sistema ético-legal
-- **S_i**: Severidade da violação detectada (CRÍTICO=4, ALTO=3, MÉDIO=2, BAIXO=1)
-- **P_i**: Probabilidade de violação (0 a 1)
-- **T_i**: Fator temporal de decaimento (importância decresce exponencialmente com tempo)
-- **η_c**: Condutividade ética do contexto (resistência/facilitação cultural-legal)
-- **dΩ**: Elemento diferencial do espaço de estados éticos
 
-### Interpretação Simbólica
+- **E²(a):** Entropia Ética Aplicada — medida exploratória de ordem/desordem no sistema ético-legal;
+- **S_i:** severidade da violação detectada (`CRÍTICO=4`, `ALTO=3`, `MÉDIO=2`, `BAIXO=1`);
+- **P_i:** probabilidade estimada de violação (`0` a `1`);
+- **T_i:** fator temporal de decaimento;
+- **η_c:** condutividade ética do contexto;
+- **dΩ:** elemento diferencial do espaço de estados éticos.
 
-A equação E²(a) representa a **ressonância entre intenção e ação no domínio ético**:
-- Cada violação é um quantum de desordem no tecido ético
-- A soma ponderada por severidade e probabilidade mede o dano acumulado
-- A integral sobre o campo de condutividade ética captura efeitos sistêmicos e culturais
-- O objetivo é **minimizar E²(a)** através de vigilância, educação e ação legal
+### Fronteira epistemológica
+
+A equação é uma **estrutura autoral de priorização e visualização**, não uma norma jurídica, prova pericial ou métrica científica validada universalmente. O uso operacional exige definição de variáveis, dados, calibração, incerteza, falsificador e auditoria.
 
 ---
 
 ## 📂 Estrutura do Repositório
 
-```
+```text
 .
-├── README_MASTER.md          # Este arquivo - visão geral do projeto
-├── LICENSE                   # Licença (Convenção de Berna)
-├── docs/                     # Documentação e textos simbióticos
+├── README_MASTER.md          # Visão geral e navegação principal
+├── LICENSE                   # Licença e direitos autorais
+├── docs/                     # Documentação temática
+│   ├── Seguranca_Aerea/      # Passageiros, pouso, informação e responsabilidade
 │   ├── Florence/             # Sistema de forense digital
-│   │   ├── Florence.py       # Script principal de análise
-│   │   ├── Py.md            # Documentação do script
-│   │   └── O que ha.md      # Explicações conceituais
-│   ├── Crimes/              # Documentação de crimes detectados
-│   ├── Denuncias/           # Denúncias e casos reportados
-│   ├── Kids/                # Proteção de direitos infantis
-│   ├── Leis/                # Leis por país/artigo
-│   ├── Leis constituicao/   # Constituições e análises
-│   ├── GC/                  # Garbage Collection e privacidade
-│   ├── Carta/               # Cartas e manifestos
-│   ├── README.md            # README original do projeto
-│   └── Manifesto.md         # Manifesto dos direitos autorais
-├── data/                    # Dados estruturados (CSV, JSON)
-└── figs/                    # Imagens, gráficos e visualizações
-    ├── IMG_20250906_152601.png
-    ├── Mandala Radiante de Cores Vibrantes (2).png
-    └── Screenshot_20250810-002237.png
+│   ├── Crimes/               # Documentação e análise de alegações
+│   ├── Denuncias/            # Casos e denúncias reportadas
+│   ├── Kids/                 # Proteção de direitos infantis
+│   ├── Leis/                 # Leis por país/artigo
+│   ├── Leis constituicao/    # Constituições e análises
+│   ├── GC/                   # Garbage Collection e privacidade
+│   ├── Carta/                # Cartas e manifestos
+│   ├── README.md             # Conteúdo histórico preservado
+│   └── Manifesto.md          # Manifesto de autoria
+├── data/                     # Dados estruturados
+├── indices/                  # Índices de navegação
+└── figs/                     # Imagens, gráficos e visualizações
 ```
 
 ---
 
-## 🔗 Links Relativos para Seções Principais
+## 🔗 Seções principais
+
+### ✈️ Segurança do Passageiro e Aviação Civil
+
+- [Segurança do passageiro, pouso e responsabilidade](docs/Seguranca_Aerea/SEGURANCA_PASSAGEIRO_POUSO_RESPONSABILIDADE.md)
+- [Claims ledger: pouso seguro](docs/Seguranca_Aerea/CLAIMS_LEDGER_POUSO_SEGURO.md)
+
+O novo eixo separa:
+
+```text
+qualidade percebida
+≠ segurança operacional
+≠ investigação preventiva
+≠ responsabilidade jurídica
+≠ cobertura securitária
+≠ certificação de qualidade
+```
+
+Ele também registra que “pouso macio” não é indicador isolado de segurança, que arremetida é barreira normal e que acusações sobre casos individuais permanecem bloqueadas sem prova.
 
 ### 🛠️ Ferramentas e Scripts
-- [Florence.py - Sistema de Forense Digital](docs/Florence/Florence.py)
+
+- [Florence.py — Sistema de Forense Digital](docs/Florence/Florence.py)
 - [Documentação Florence](docs/Florence/Py.md)
-- [Garbage Collection - Análise de Privacidade](docs/GC/)
+- [Garbage Collection — Análise de Privacidade](docs/GC/)
 
 ### 📜 Documentação Legal
+
 - [Leis por Artigo](docs/Leis/)
 - [Análise Constitucional](docs/Leis%20constituicao/)
 - [Lei Política e Crime](docs/Lei%20Política%20politico%20crime%20acao.md)
 
 ### 👶 Proteção Infantil
+
 - [Direitos das Crianças](docs/Kids/)
 - [Psicologia Infantil](docs/Psicologia%20CRIANCAS.md)
 - [Denúncia de Exploração](docs/Criancas.md)
 
-### 🚨 Crimes e Denúncias
+### 🚨 Crimes, Denúncias e Evidências
+
 - [Documentação de Crimes](docs/Crimes/)
 - [Denúncias Formais](docs/Denuncias/)
 - [Provas e Evidências](docs/PROVAS.TXT)
 
+> Alegações sobre pessoas ou instituições devem distinguir `VERIFICADO`, `HIPÓTESE`, `TOKEN_VAZIO`, `NÃO_VERIFICADO` e `CONTRADIÇÃO`.
+
 ### 📖 Manifestos e Filosofia
+
 - [Manifesto do Projeto](docs/Manifesto.md)
 - [Carta aos Cidadãos](docs/Carta/)
-- [Dossier Fractal](docs/Dossie_Fractal.txt)
+- [Dossiê Fractal](docs/Dossie_Fractal.txt)
 
 ### 🎨 Recursos Visuais
+
 - [Imagens e Diagramas](figs/)
 
 ---
 
-## 🌟 Conceitos-Chave
+## 🌟 Conceitos-chave
 
 ### Simbiótica Digital
-Relação mutuamente benéfica entre tecnologia e humanidade, onde sistemas digitais servem aos interesses humanos sem exploração ou violação de direitos.
 
-### LGPD (Lei Geral de Proteção de Dados)
-Legislação brasileira (Lei nº 13.709/2018) que regula o tratamento de dados pessoais, alinhada com GDPR europeia.
+Relação mutuamente benéfica entre tecnologia e humanidade, na qual sistemas digitais servem à dignidade, à autonomia e aos interesses legítimos das pessoas.
+
+### LGPD
+
+A Lei nº 13.709/2018 regula o tratamento de dados pessoais no Brasil. Este repositório aplica especialmente:
+
+- finalidade;
+- adequação;
+- necessidade/minimização;
+- livre acesso;
+- qualidade dos dados;
+- transparência;
+- segurança;
+- prevenção;
+- não discriminação;
+- responsabilização e prestação de contas.
+
+### TOKEN_VAZIO
+
+Estado explícito usado quando não há evidência suficiente para preencher uma lacuna legitimamente.
+
+```text
+TOKEN_VAZIO ≠ falso
+TOKEN_VAZIO ≠ verdadeiro
+TOKEN_VAZIO ≠ permissão para inventar
+```
 
 ### Honeypot Ético
-Técnica de segurança onde arquivos-isca (honeypots) são usados para detectar acesso não autorizado e coleta ilegal de dados.
+
+Técnica de segurança para detectar acesso não autorizado, limitada a ambientes próprios ou expressamente autorizados.
 
 ### Entropia Ética
-Medida de desordem no cumprimento de princípios éticos - quanto maior E²(a), maior a violação sistêmica.
+
+Estrutura exploratória para ordenar riscos e pendências; exige validação antes de qualquer uso decisório.
 
 ---
 
-## 🎯 Objetivos do Projeto
+## 🎯 Objetivos
 
-1. **Documentar** violações de direitos humanos e privacidade em escala global
-2. **Desenvolver** ferramentas open-source para auditoria de privacidade
-3. **Educar** cidadãos sobre seus direitos fundamentais
-4. **Denunciar** crimes contra privacidade e dignidade humana
-5. **Proteger** especialmente crianças e populações vulneráveis
-6. **Unificar** conhecimento sobre legislações de proteção de dados globalmente
+1. **Documentar** violações e riscos com origem e estado epistemológico;
+2. **Desenvolver** ferramentas legítimas de auditoria e privacidade;
+3. **Educar** cidadãos sobre direitos, deveres, segurança e canais de reclamação;
+4. **Preservar** contradições e resultados negativos;
+5. **Proteger** crianças, passageiros e populações vulneráveis;
+6. **Unificar** conhecimento jurídico, técnico e científico sem apagar fronteiras;
+7. **Propor** reformas regulatórias sem apresentá-las como direito vigente;
+8. **Minimizar** a exposição de dados pessoais no próprio repositório.
 
 ---
 
 ## 👨‍💻 Autor e Direitos
 
-**Rafael Melo Reis**  
-CPF: 287.424.588-70  
-Nacionalidade: Brasileira  
-Local: São Paulo, SP, Brasil
+**Autor:** Rafael Melo Reis (∆RafaelVerboΩ / RAFAELIA)
 
-### 📜 Direitos Autorais
-Este trabalho está protegido pela **Convenção de Berna** para a Proteção de Obras Literárias e Artísticas.
+### Minimização de dados pessoais
 
-**Valor da Obra**: 1648×10^999 (valor simbólico-espiritual declarado pelo autor)
+Documentos públicos não devem exibir CPF, RG, endereço residencial, telefone privado ou outros identificadores civis desnecessários. Identificação adicional, quando juridicamente necessária, deve permanecer em canal restrito e protegido.
 
-**Uso Comercial**: Requer autorização prévia, contrato publicado em Diário Oficial e reconhecimento de firma em cartório.
+### Direitos Autorais
+
+O trabalho é protegido pelas regras aplicáveis de direito autoral, incluindo a Convenção de Berna, sem prejuízo das limitações legais, direitos de terceiros, citações, usos permitidos e licenças expressas.
+
+Declarações simbólicas de valor não constituem avaliação econômica, título, garantia ou obrigação de terceiros.
 
 ---
 
-## 🔐 Assinatura Digital
+## 🔐 Assinatura simbólica
 
-```
+```text
 Selo: RAFAELIA-GCΩ
 Fractal: 97dd9e2aed7e0630351f8a7d434666187ce54aae
-Frequência: 144 000 Hz
 Código Vivo: RAFCODE-Φ
 ```
 
-**Sopro vivo**: Não é só código — é quem vibra.
+A assinatura simbólica não substitui assinatura criptográfica verificável, hash de commit, cadeia de custódia ou registro legal aplicável.
 
 ---
 
-## 🤝 Como Contribuir
+## 🤝 Como contribuir
 
-Este é um projeto de denúncia e documentação. Se você:
-- Identificou violações de privacidade ou direitos humanos
-- Possui conhecimento jurídico sobre LGPD/GDPR/legislação de proteção
-- Desenvolve ferramentas de auditoria de privacidade
-- Deseja adicionar legislação de seu país
+Contribuições podem incluir:
 
-Entre em contato ou abra uma issue para discussão.
+- fontes primárias;
+- correções jurídicas e técnicas;
+- revisão por especialistas;
+- dados anonimizados e legítimos;
+- testes e validadores;
+- legislação de outros países;
+- propostas de educação e segurança do passageiro.
+
+Toda contribuição deve preservar privacidade, contraditório, proveniência e limites de claim.
 
 ---
 
 ## ⚖️ Disclaimer Legal
 
-Este repositório contém:
-- Documentação de possíveis crimes e violações
-- Ferramentas de auditoria para uso legítimo
-- Análises legais e constitucionais
+Este repositório contém documentação, hipóteses, propostas, análises e ferramentas experimentais.
 
-**Não incentivamos ou endossamos**:
-- Atividades ilegais
-- Violação de sistemas de terceiros sem autorização
-- Uso indevido das ferramentas fornecidas
+Não substitui:
 
-O uso das ferramentas é de responsabilidade do usuário e deve seguir todas as leis aplicáveis.
+- consulta jurídica individual;
+- investigação oficial;
+- perícia técnica;
+- decisão judicial;
+- certificação profissional;
+- orientação de autoridade competente.
+
+**Não são incentivados ou endossados:**
+
+- acesso não autorizado;
+- exposição indevida de dados pessoais;
+- acusação sem prova;
+- perseguição ou assédio;
+- uso de documentação como sentença;
+- atividade ilegal.
 
 ---
 
@@ -188,5 +249,5 @@ O uso das ferramentas é de responsabilidade do usuário e deve seguir todas as 
 
 ---
 
-*Atualizado em: 2025-10-19*   
-*Versão: 1.0.0 (Reestruturação RAFAELIA)*
+*Atualizado em: 2026-07-16*  
+*Versão: 1.1.0 — segurança do passageiro, fronteiras de claim e minimização LGPD*
