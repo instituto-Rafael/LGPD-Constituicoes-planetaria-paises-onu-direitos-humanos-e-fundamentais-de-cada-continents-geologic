@@ -1,0 +1,156 @@
+{
+  "schema_version": "2.0.0",
+  "checked_at": "2026-08-26",
+  "status": "PROPOSED_AUDITABLE",
+  "federation": {
+    "mapa_repo": "rafaelmeloreisnovo/Mapa",
+    "mapa_contract": "docs/governance/ROBOTICS_USER_SOVEREIGNTY_FEDERATION_V1.md",
+    "producer_enrollment": "TOKEN_VAZIO"
+  },
+  "core_invariants": [
+    "TOKEN_VAZIO != false",
+    "implementation != execution != evidence != release",
+    "ACKNOWLEDGED != CONSENT",
+    "USER_SOVEREIGNTY != CONSENT_ONLY",
+    "USER_PREFERENCE != LEGAL_OVERRIDE",
+    "REFERENCE != CERTIFICATION",
+    "CERTIFICATION != UNIVERSAL_COMPLIANCE_PROOF",
+    "market_concentration != cartel_proof"
+  ],
+  "brazil": {
+    "constitution": [
+      {"article": "5-X", "topic": "privacy_intimacy_honor_image"},
+      {"article": "5-XII", "topic": "communications_confidentiality"},
+      {"article": "5-LXXIX", "topic": "fundamental_right_personal_data_protection"}
+    ],
+    "lgpd": [
+      {"article": "6", "topic": "principles"},
+      {"article": "7", "topic": "legal_bases_general"},
+      {"article": "8", "topic": "consent_quality_proof_revocation"},
+      {"article": "9", "topic": "clear_adequate_conspicuous_information"},
+      {"article": "10", "topic": "legitimate_interest_necessity_transparency"},
+      {"article": "11", "topic": "sensitive_data"},
+      {"article": "14", "topic": "children_adolescents_best_interest"},
+      {"article": "17", "topic": "data_subject_title_and_fundamental_rights"},
+      {"article": "18", "topic": "data_subject_rights"},
+      {"article": "20", "topic": "automated_decision_review_information"},
+      {"article": "37", "topic": "processing_records"},
+      {"article": "38", "topic": "data_protection_impact_report"},
+      {"article": "40", "topic": "interoperability_portability_free_access_security_retention"},
+      {"article": "41", "topic": "data_protection_officer_contact"},
+      {"article": "44", "topic": "irregular_processing_expected_security"},
+      {"article": "46", "topic": "technical_administrative_security_by_design"},
+      {"article": "48", "topic": "security_incident_notification"},
+      {"article": "49", "topic": "systems_security_good_practices_governance"},
+      {"article": "50", "topic": "privacy_governance_program"},
+      {"article": "51", "topic": "technical_standards_for_data_subject_control"},
+      {"article": "52", "topic": "administrative_sanctions_and_governance_criteria"}
+    ],
+    "marco_civil": [
+      {"article": "7-VI", "topic": "clear_complete_contract_information"},
+      {"article": "7-VII", "topic": "third_party_data_disclosure"},
+      {"article": "7-VIII", "topic": "clear_information_data_processing"},
+      {"article": "7-IX", "topic": "highlighted_consent_where_applicable"},
+      {"article": "7-X", "topic": "deletion_subject_to_mandatory_retention"},
+      {"article": "7-XI", "topic": "public_clear_use_policies"},
+      {"article": "8", "topic": "privacy_and_expression"},
+      {"article": "10", "topic": "records_personal_data_private_communications"}
+    ]
+  },
+  "international": [
+    {"id": "UDHR-12", "type": "human_rights_reference", "topic": "privacy"},
+    {"id": "ICCPR-17", "type": "treaty_reference", "topic": "privacy"},
+    {"id": "ACHR-11", "type": "treaty_reference", "topic": "privacy_dignity"},
+    {"id": "OECD-PRIVACY-GUIDELINES", "type": "guidelines", "topic": "privacy_principles"},
+    {"id": "GDPR-5", "type": "law_by_jurisdiction", "topic": "processing_principles"},
+    {"id": "GDPR-12-15", "type": "law_by_jurisdiction", "topic": "transparency_access"},
+    {"id": "GDPR-20-22", "type": "law_by_jurisdiction", "topic": "portability_objection_automation"},
+    {"id": "GDPR-24-25", "type": "law_by_jurisdiction", "topic": "accountability_by_design_default"},
+    {"id": "GDPR-30", "type": "law_by_jurisdiction", "topic": "processing_records"},
+    {"id": "GDPR-32", "type": "law_by_jurisdiction", "topic": "security"},
+    {"id": "GDPR-35", "type": "law_by_jurisdiction", "topic": "dpia"},
+    {"id": "GDPR-42", "type": "law_by_jurisdiction", "topic": "certification"},
+    {"id": "EU-AI-ACT-2024-1689", "type": "law_by_jurisdiction", "topic": "risk_based_ai_human_oversight_transparency_data_governance"}
+  ],
+  "standards": [
+    {"id": "ISO-IEC-27001-2022", "scope": "information_security_management", "status_checked": "current"},
+    {"id": "ISO-IEC-27701-2025", "scope": "privacy_information_management", "status_checked": "current"},
+    {"id": "ISO-8000-1-2022", "scope": "data_quality_overview", "status_checked": "published"},
+    {"id": "ISO-8000-8-2015", "scope": "data_quality_concepts_measurement", "status_checked": "published_confirmed"},
+    {"id": "ISO-8000-210-2024", "scope": "sensor_data_quality_anomalies", "status_checked": "published"},
+    {"id": "ISO-IEC-42001", "scope": "ai_management_system", "status_checked": "reference"},
+    {"id": "ISO-14001-2026", "scope": "environmental_management", "status_checked": "current"},
+    {"id": "NIST-CSF-2.0", "scope": "cybersecurity_risk", "status_checked": "current"},
+    {"id": "NIST-PRIVACY-FRAMEWORK", "scope": "privacy_risk", "status_checked": "1.0_final_1.1_ipd_available"},
+    {"id": "NIST-AI-RMF-1.0", "scope": "ai_risk", "status_checked": "revision_in_progress"},
+    {"id": "IEEE-7000-2021", "scope": "ethical_system_design", "status_checked": "active"},
+    {"id": "IEEE-7002-2022", "scope": "data_privacy_process", "status_checked": "active"},
+    {"id": "IEEE-7003-2024", "scope": "algorithmic_bias", "status_checked": "active"},
+    {"id": "IEEE-7007-2021", "scope": "ethically_driven_robotics_ontology", "status_checked": "reference"},
+    {"id": "IEEE-7009-2024", "scope": "fail_safe_autonomous_systems", "status_checked": "reference"},
+    {"id": "RFC-6973", "scope": "protocol_privacy_considerations", "status_checked": "published"},
+    {"id": "RFC-3552", "scope": "protocol_security_considerations", "status_checked": "published"}
+  ],
+  "assurance_examples": [
+    {
+      "id": "CVM-INDEPENDENT-AUDIT",
+      "claim": "independent_audit_supports_financial_information_credibility",
+      "state": "SUPPORTED_BY_OFFICIAL_SOURCE"
+    },
+    {
+      "id": "TWO-EXTERNAL-AUDITS-ALL-LISTED",
+      "claim": "every_listed_company_requires_exactly_two_independent_external_audits",
+      "state": "TOKEN_VAZIO"
+    },
+    {
+      "id": "PETROBRAS-RPBC-ISO14001",
+      "claim": "specific_refinery_page_reports_iso_14001_certification",
+      "state": "SUPPORTED_BOUNDED_SCOPE"
+    },
+    {
+      "id": "BUREAU-VERITAS-GRAINS",
+      "claim": "bureau_veritas_brazil_reports_classifying_about_45_percent_of_grain_volume_leaving_brazil",
+      "state": "SUPPORTED_BY_PROVIDER_SOURCE"
+    },
+    {
+      "id": "VANZOLINI-CONFORMITY-ASSESSMENT",
+      "claim": "vanzolini_performs_certification_and_conformity_assessment_with_independence_controls",
+      "state": "SUPPORTED_BY_PROVIDER_SOURCE"
+    }
+  ],
+  "serious_claim_policy": {
+    "default_state": "TOKEN_VAZIO",
+    "claims": [
+      "monopoly",
+      "cartel",
+      "collusion",
+      "unlawful_extraterritorial_coercion",
+      "sovereignty_violation",
+      "financial_market_manipulation",
+      "attack_on_global_financial_system",
+      "legal_slavery_classification",
+      "systematic_exploitation_of_developing_countries"
+    ],
+    "minimum_evidence": [
+      "jurisdiction",
+      "applicable_rule",
+      "identified_actor",
+      "observed_conduct",
+      "causal_mechanism",
+      "independent_or_regulatory_source",
+      "counterevidence",
+      "falsifier"
+    ]
+  },
+  "gates": {
+    "G-NORM-01_brazil_primary_legal_sources": "PASS_DOCUMENTED",
+    "G-NORM-02_iso_public_metadata": "PASS_DOCUMENTED",
+    "G-NORM-03_nist_status": "PASS_DOCUMENTED",
+    "G-NORM-04_ieee_rfc_public_metadata": "PASS_DOCUMENTED",
+    "G-NORM-05_full_standard_clause_review": "TOKEN_VAZIO",
+    "G-NORM-06_jurisdiction_specific_legal_opinion": "TOKEN_VAZIO",
+    "G-NORM-07_mapa_producer_enrollment": "TOKEN_VAZIO",
+    "G-NORM-08_runtime_robotics_implementation": "TOKEN_VAZIO",
+    "G-NORM-09_independent_implementation_assurance": "TOKEN_VAZIO"
+  }
+}
