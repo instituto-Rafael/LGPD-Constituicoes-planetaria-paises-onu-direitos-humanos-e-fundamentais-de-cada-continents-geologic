@@ -5,21 +5,27 @@ on:
     paths:
       - "docs/ROBOTICS_INFORMATION_GOVERNANCE_FIRST_QUESTION.md"
       - "docs/ROBOTICS_MAPA_NORMATIVE_CROSSWALK_V2.md"
+      - "docs/ROBOTICS_NORMATIVE_CONTINUOUS_EVOLUTION_V3.md"
       - "data/robotics_information_governance_v1.json"
       - "data/robotics_normative_crosswalk_v2.json"
+      - "data/robotics_normative_snapshot_20260826.v3.json"
       - "indices/robotics_information_governance.md"
       - "tests/test_robotics_information_governance.py"
       - "tests/test_robotics_normative_crosswalk.py"
+      - "tests/test_robotics_normative_snapshot_v3.py"
       - ".github/workflows/robotics-information-governance.yml"
   push:
     paths:
       - "docs/ROBOTICS_INFORMATION_GOVERNANCE_FIRST_QUESTION.md"
       - "docs/ROBOTICS_MAPA_NORMATIVE_CROSSWALK_V2.md"
+      - "docs/ROBOTICS_NORMATIVE_CONTINUOUS_EVOLUTION_V3.md"
       - "data/robotics_information_governance_v1.json"
       - "data/robotics_normative_crosswalk_v2.json"
+      - "data/robotics_normative_snapshot_20260826.v3.json"
       - "indices/robotics_information_governance.md"
       - "tests/test_robotics_information_governance.py"
       - "tests/test_robotics_normative_crosswalk.py"
+      - "tests/test_robotics_normative_snapshot_v3.py"
       - ".github/workflows/robotics-information-governance.yml"
 
 permissions:
@@ -42,8 +48,10 @@ jobs:
         run: |
           python -m json.tool data/robotics_information_governance_v1.json >/dev/null
           python -m json.tool data/robotics_normative_crosswalk_v2.json >/dev/null
+          python -m json.tool data/robotics_normative_snapshot_20260826.v3.json >/dev/null
 
       - name: Run zero-dependency governance tests
         run: |
           python -m unittest tests.test_robotics_information_governance -v
           python -m unittest tests.test_robotics_normative_crosswalk -v
+          python -m unittest tests.test_robotics_normative_snapshot_v3 -v
