@@ -1,0 +1,265 @@
+{
+  "schema_version": "1.0.0",
+  "status": "PROPOSED_AUDITABLE",
+  "term": {
+    "name": "Robotics",
+    "legal_term": false,
+    "definition": "Operational umbrella for robotic or automated information systems that collect, infer, classify, recommend, rank, decide, execute, or share information about people.",
+    "legal_role_override_forbidden": true
+  },
+  "first_question_gate": {
+    "required_by_this_framework": true,
+    "claimed_as_general_lgpd_literal_requirement": false,
+    "prompt": "Este serviço usa dados pessoais e/ou sistemas automatizados para coletar, inferir, classificar, recomendar, decidir ou compartilhar informações sobre você? Veja o que acontece, por quê, com quem, por quanto tempo e quais controles você possui.",
+    "minimum_disclosure": [
+      "data_collected_or_inferred",
+      "purpose",
+      "relevant_automation",
+      "sharing",
+      "retention_or_criterion",
+      "rights_and_controls",
+      "contact_and_contestation"
+    ],
+    "states": [
+      "DISCLOSED",
+      "ACKNOWLEDGED",
+      "OPTIONAL_CONSENT_GRANTED",
+      "OPTIONAL_CONSENT_DENIED",
+      "CONSENT_NOT_APPLICABLE",
+      "RIGHT_EXERCISE_REQUESTED",
+      "TOKEN_VAZIO"
+    ],
+    "invariants": [
+      "ACKNOWLEDGED != OPTIONAL_CONSENT_GRANTED",
+      "information != consent",
+      "consent_is_not_the_only_legal_basis",
+      "TOKEN_VAZIO != false"
+    ]
+  },
+  "layers": [
+    {
+      "id": "L1",
+      "name": "identity_authority",
+      "questions": [
+        "Who is the controller?",
+        "Who is the processor?",
+        "Is there joint controllership?",
+        "Who is the DPO/contact when applicable?",
+        "Who can alter purpose or essential means?",
+        "Who answers data-subject rights?",
+        "Which legal entity receives revenue or benefit from the processing?"
+      ]
+    },
+    {
+      "id": "L2",
+      "name": "collection_origin_minimization",
+      "questions": [
+        "Which data are collected directly?",
+        "Which data come from third parties?",
+        "Which data are inferred?",
+        "Which data are sensitive?",
+        "What is strictly necessary?",
+        "What is optional?",
+        "Which data can be removed without breaking the legitimate purpose?"
+      ]
+    },
+    {
+      "id": "L3",
+      "name": "purpose_necessity_legal_basis",
+      "questions": [
+        "What is each data element used for?",
+        "Which legal basis supports each purpose?",
+        "Is the purpose specific and informed?",
+        "Is there incompatible reuse?",
+        "Has necessity been demonstrated?",
+        "Is there a less intrusive alternative?",
+        "Does a material purpose change trigger a new analysis and new notice?"
+      ]
+    },
+    {
+      "id": "L4",
+      "name": "automation_inference_robotics",
+      "questions": [
+        "Is there automated decision, ranking, recommendation, or classification?",
+        "Which inputs influence the output?",
+        "Are derived or inferred data created?",
+        "Does the output affect a relevant interest of the person?",
+        "Is review, contestation, or suitable intervention available?",
+        "Can criteria and procedures be explained clearly and adequately?",
+        "Are bias, error, safety, and differential impacts tested?"
+      ]
+    },
+    {
+      "id": "L5",
+      "name": "sharing_chain_transfers",
+      "questions": [
+        "With whom are data shared?",
+        "For which purpose?",
+        "Are sub-processors used?",
+        "Is there international transfer?",
+        "Is there data provenance?",
+        "Do applicable correction, deletion, opposition, or revocation effects propagate?",
+        "Is there a receipt or audit trail for material transmissions?"
+      ]
+    },
+    {
+      "id": "L6",
+      "name": "data_subject_rights_control",
+      "questions": [
+        "How can the person obtain confirmation and access?",
+        "How can the person correct data?",
+        "How can anonymization, blocking, or deletion be requested when applicable?",
+        "How can sharing information be obtained?",
+        "How can consent be revoked when consent is the basis?",
+        "How can the person object or contest processing where legally available?",
+        "How can review or information on automated decisions be requested where applicable?"
+      ]
+    },
+    {
+      "id": "L7",
+      "name": "evidence_security_accountability",
+      "questions": [
+        "Are relevant operations and decisions recorded?",
+        "Is there a retention and disposal policy?",
+        "Are security controls proportionate to risk?",
+        "Are incidents recorded and handled?",
+        "Is an impact assessment performed when required or advisable?",
+        "Does the audit trail distinguish claim, hypothesis, and proof?",
+        "Is there correction and non-recurrence after failure?"
+      ]
+    }
+  ],
+  "relation_types": [
+    "DIRECT",
+    "INVERSE",
+    "EXCLUSIVE",
+    "DERIVATIVE",
+    "ANTIDERIVATIVE",
+    "LOGARITHMIC",
+    "ANOMALY_PARADOX"
+  ],
+  "audit_variables": {
+    "T": "observable_transparency",
+    "U": "effective_user_control",
+    "A": "automation_intensity",
+    "D": "personal_data_volume_variety",
+    "S": "sharing_intensity",
+    "R": "residual_risk",
+    "E": "verifiable_evidence",
+    "O": "observable_opacity"
+  },
+  "analytical_transforms": [
+    {
+      "id": "AT-01",
+      "type": "DERIVATIVE",
+      "expression": "dT/dt",
+      "meaning": "change in observable transparency over time",
+      "legal_proof": false
+    },
+    {
+      "id": "AT-02",
+      "type": "INVERSE",
+      "expression": "dU/dO",
+      "meaning": "relationship between user control and opacity",
+      "legal_proof": false
+    },
+    {
+      "id": "AT-03",
+      "type": "ANTIDERIVATIVE",
+      "expression": "integral R(t) dt",
+      "meaning": "cumulative risk exposure across a lifecycle",
+      "legal_proof": false
+    },
+    {
+      "id": "AT-04",
+      "type": "DERIVATIVE",
+      "expression": "d2R/(dA dD)",
+      "meaning": "cross-effect between automation intensity and data volume on residual risk",
+      "legal_proof": false
+    },
+    {
+      "id": "AT-05",
+      "type": "EXCLUSIVE",
+      "expression": "PROVED XOR TOKEN_VAZIO",
+      "meaning": "same claim in same state cannot be simultaneously proved and unknown",
+      "legal_proof": false
+    },
+    {
+      "id": "AT-06",
+      "type": "LOGARITHMIC",
+      "expression": "log(1+n_independent_evidence)",
+      "meaning": "evidence-volume compression to reduce document-count dominance",
+      "legal_proof": false
+    }
+  ],
+  "anomalies": [
+    "AP-01_verbose_but_incomprehensible_transparency",
+    "AP-02_consent_without_real_choice",
+    "AP-03_reidentifiable_anonymized_data",
+    "AP-04_nominal_processor_with_controller_power",
+    "AP-05_local_deletion_without_chain_propagation",
+    "AP-06_ai_explanation_without_material_criteria",
+    "AP-07_declared_minimization_with_growing_collection",
+    "AP-08_strong_security_weak_governance",
+    "AP-09_beneficial_personalization_with_dependency_or_opacity",
+    "AP-10_market_concentration_treated_as_cartel_proof"
+  ],
+  "serious_claim_policy": {
+    "terms_requiring_evidence": [
+      "monopoly",
+      "oligopoly",
+      "cartel",
+      "collusion",
+      "criminal_organization",
+      "mafia"
+    ],
+    "states": [
+      "OBSERVACAO",
+      "HIPOTESE",
+      "EVIDENCIA_PARCIAL",
+      "SUSTENTADA",
+      "REFUTADA",
+      "TOKEN_VAZIO"
+    ],
+    "market_concentration_minimum_fields": [
+      "relevant_market_definition",
+      "market_share_and_power",
+      "entry_barriers_and_network_effects",
+      "substitutability",
+      "observed_conduct",
+      "economic_or_regulatory_source"
+    ]
+  },
+  "evidence_gates": {
+    "G1_legal_text_verified": "PASS",
+    "G2_anpd_guidance_verified": "PASS",
+    "G3_fqg_required_by_law": "TOKEN_VAZIO",
+    "G4_robotics_is_legal_term": "TOKEN_VAZIO",
+    "G5_product_implementation": "TOKEN_VAZIO",
+    "G6_independent_usability_test": "TOKEN_VAZIO",
+    "G7_market_power_claims": "TOKEN_VAZIO"
+  },
+  "official_sources": [
+    {
+      "id": "SRC-LGPD",
+      "authority": "Presidencia da Republica - Planalto",
+      "title": "Lei 13.709/2018 - LGPD, texto compilado",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
+      "checked_at": "2026-08-26"
+    },
+    {
+      "id": "SRC-ANPD-TITULAR",
+      "authority": "ANPD",
+      "title": "Titular de Dados",
+      "url": "https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados-1",
+      "checked_at": "2026-08-26"
+    },
+    {
+      "id": "SRC-ANPD-DIREITOS",
+      "authority": "ANPD",
+      "title": "Direito dos Titulares",
+      "url": "https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados-1/direito-dos-titulares",
+      "checked_at": "2026-08-26"
+    }
+  ]
+}
