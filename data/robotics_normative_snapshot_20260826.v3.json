@@ -1,0 +1,59 @@
+{
+  "schema_version": "3.0.0",
+  "snapshot_id": "ROBOTICS-NORMATIVE-20260826-V3",
+  "checked_at": "2026-08-26",
+  "state": "CURRENT_BOUNDED",
+  "jurisdiction_scope": ["BR", "EU_REFERENCE_WHEN_APPLICABLE"],
+  "sources": [
+    {"id":"BR-LGPD-13709","type":"STATUTE","status":"ACTIVE","url":"https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm","anchors":["1","2","6","7","8","9","10","11","14","17","18","20","33-36","37","38","40","41","44","46","48","49","50","51","52"]},
+    {"id":"BR-ANPD-R15-2024","type":"REGULATION","status":"ACTIVE","url":"https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd","scope":"security_incident_communication"},
+    {"id":"BR-ANPD-R18-2024","type":"REGULATION","status":"ACTIVE","url":"https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd","scope":"data_protection_officer"},
+    {"id":"BR-ANPD-R19-2024","type":"REGULATION","status":"ACTIVE_WITH_2025_RECTIFICATION","url":"https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd/resolucao-cd-anpd-no-19-de-23-de-agosto-de-2024","scope":"international_data_transfer"},
+    {"id":"BR-ECA-DIGITAL-15211-2025","type":"STATUTE","status":"ACTIVE_FROM_2026-03-17","url":"https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/_leis2025.htm","scope":"children_adolescents_digital_environment"},
+    {"id":"BR-LAW-15352-2026","type":"STATUTE","status":"ACTIVE","url":"https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15352.htm","scope":"ANPD_structure_and_ECA_Digital_effective_date"},
+    {"id":"BR-ANPD-R30-2025","type":"REGULATION","status":"ACTIVE","url":"https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd","scope":"priority_topics_2026_2027"},
+    {"id":"BR-ANPD-R31-2025","type":"REGULATION","status":"ACTIVE","url":"https://www.gov.br/anpd/pt-br/assuntos/regulacao/agenda-regulatoria-1/agenda-regulatoria-2025-2026","scope":"regulatory_agenda_2025_2026"},
+    {"id":"BR-ANPD-R32-2026","type":"REGULATOR_DECISION","status":"ACTIVE","url":"https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd","scope":"EU_adequacy_for_international_transfer"},
+    {"id":"BR-ANPD-ECA-PLAN-2026","type":"GUIDANCE","status":"CURRENT_2026","url":"https://www.gov.br/anpd/pt-br/assuntos/eca-digital","scope":"age_assurance_adaptation_and_enforcement_timeline"},
+    {"id":"EU-AI-ACT-2024-1689","type":"REGULATION","status":"PHASED","url":"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32024R1689","scope":"AI_governance"},
+    {"id":"EU-REG-2026-1744","type":"REGULATION","status":"ACTIVE","url":"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1744","scope":"AI_Act_timing_adjustment"},
+    {"id":"ISO-IEC-27701-2025","type":"TECHNICAL_STANDARD","status":"PUBLISHED_EDITION_2","url":"https://www.iso.org/standard/27701","scope":"privacy_information_management"},
+    {"id":"ISO-14001-2026","type":"TECHNICAL_STANDARD","status":"PUBLISHED_EDITION_4","url":"https://www.iso.org/standard/14001","scope":"environmental_management"},
+    {"id":"ISO-IEC-42001-2023","type":"TECHNICAL_STANDARD","status":"PUBLISHED","url":"https://www.iso.org/standard/42001","scope":"AI_management_system"},
+    {"id":"ISO-8000-1-2022","type":"TECHNICAL_STANDARD","status":"PUBLISHED_CONFIRMED","url":"https://www.iso.org/standard/81745.html","scope":"data_quality_overview"},
+    {"id":"IEEE-7000-2021","type":"TECHNICAL_STANDARD","status":"ACTIVE","url":"https://standards.ieee.org/ieee/7000/6781/","scope":"ethical_system_design"},
+    {"id":"IEEE-7002-2022","type":"TECHNICAL_STANDARD","status":"ACTIVE","url":"https://standards.ieee.org/","scope":"data_privacy_process"},
+    {"id":"IEEE-7003-2024","type":"TECHNICAL_STANDARD","status":"ACTIVE","url":"https://standards.ieee.org/ieee/7003/11357/","scope":"algorithmic_bias"},
+    {"id":"IEEE-7007-2021","type":"TECHNICAL_STANDARD","status":"ACTIVE","url":"https://standards.ieee.org/sitemap/","scope":"robotics_automation_ontology"},
+    {"id":"IEEE-7009-2024","type":"TECHNICAL_STANDARD","status":"ACTIVE","url":"https://standards.ieee.org/sitemap/","scope":"fail_safe_autonomous_systems"},
+    {"id":"RFC-6973","type":"INFORMATIONAL_RFC","status":"PUBLISHED","url":"https://www.rfc-editor.org/info/rfc6973/","scope":"privacy_considerations"},
+    {"id":"RFC-3552","type":"BEST_CURRENT_PRACTICE","status":"BCP72_UPDATED_BY_LATER_RFCS","url":"https://www.rfc-editor.org/info/rfc3552/","scope":"security_considerations"}
+  ],
+  "timelines": {
+    "ECA_Digital_effective": "2026-03-17",
+    "ECA_Digital_age_assurance_adaptation_window": "2026-08_to_2026-11",
+    "EU_AI_Act_general_application": "2026-08-02",
+    "EU_AI_Act_Annex_III_high_risk": "2027-12-02",
+    "EU_AI_Act_Annex_I_product_high_risk": "2028-08-02"
+  },
+  "non_regression_invariants": [
+    "TOKEN_VAZIO_NOT_ERASED",
+    "SOURCE_VERSION_REQUIRED",
+    "AUTHORITY_TYPE_REQUIRED",
+    "STANDARD_NOT_PROMOTED_TO_STATUTE",
+    "GUIDANCE_NOT_PROMOTED_TO_BINDING_LAW",
+    "SUPERSEDED_NOT_CURRENT",
+    "CERTIFICATE_SCOPE_NOT_GENERALIZED",
+    "PURPOSE_EXPANSION_REQUIRES_REVALIDATION",
+    "SHARING_EXPANSION_REQUIRES_REVALIDATION",
+    "NORMATIVE_CHANGE_REOPENS_IMPACTED_GATES",
+    "HISTORICAL_RECEIPTS_APPEND_ONLY"
+  ],
+  "open_tokens": [
+    {"id":"TV-LEGAL-OPINION","state":"TOKEN_VAZIO","reason":"No binding jurisdiction-specific legal opinion for a concrete deployment."},
+    {"id":"TV-STANDARD-FULLTEXT","state":"TOKEN_VAZIO","reason":"Full licensed text of all referenced standards was not ingested; public metadata only where applicable."},
+    {"id":"TV-RUNTIME","state":"TOKEN_VAZIO","reason":"No Robotics runtime producer bound."},
+    {"id":"TV-USER-COMPREHENSION","state":"TOKEN_VAZIO","reason":"No independent comprehension/accessibility study executed."},
+    {"id":"TV-INDEPENDENT-ASSURANCE","state":"TOKEN_VAZIO","reason":"No independent audit of runtime implementation."}
+  ]
+}
