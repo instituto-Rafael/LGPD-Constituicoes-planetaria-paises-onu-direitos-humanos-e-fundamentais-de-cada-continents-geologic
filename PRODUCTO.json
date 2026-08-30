@@ -1,0 +1,104 @@
+{
+  "repository": "instituto-rafael/lgpd-constituicoes-planetaria-paises-onu-direitos-humanos-e-fundamentais-de-cada-continents-geologic",
+  "product_id": "LGPD-001",
+  "layers": [
+    "Biblioteconomic KOS",
+    "Evidence & Custody"
+  ],
+  "authority": {
+    "primary_owner": "instituto-rafael",
+    "domain": "legal + governance authority",
+    "responsibility_scope": "LGPD, constitutional law, international human rights, planetary governance frameworks",
+    "authority_boundary": "catalogs legal documents and governance frameworks; does not render legal opinions"
+  },
+  "epistemic_state": {
+    "state": "VERIFICATION_PENDING",
+    "control_plane_state": "VERIFICATION_PENDING",
+    "claim_allowed": false,
+    "merged_pr_count": 0,
+    "open_token_vazio_count": 2,
+    "closed_token_vazio_count": 0
+  },
+  "github_identity": {
+    "repo_url": "https://github.com/instituto-rafael/lgpd-constituicoes-planetaria-paises-onu-direitos-humanos-e-fundamentais-de-cada-continents-geologic",
+    "main_sha": "cfcd2a1b3b63f4c9cad0a38bf024ea61d4720236",
+    "refactoring_branch": "claude/refatoracao-documentacao-produtos-czeifu",
+    "visibility": "private"
+  },
+  "token_vazio_catalog": {
+    "tv_data": 1,
+    "tv_data_items": [
+      "Data catalog and indexing for 10 files + 10 directories (Cycle 4)"
+    ],
+    "tv_boundary": 1,
+    "tv_boundary_items": [
+      "Governance framework boundaries and legal scope definition (Cycle 5)"
+    ],
+    "total_open_gaps": 2
+  },
+  "closure_sequence": {
+    "cycle_4": {
+      "deadline": "2026-09-15",
+      "gates": [
+        "Catalog and index all 10 data files",
+        "Catalog and index all 10 directories",
+        "Validate legal document metadata completeness"
+      ]
+    },
+    "cycle_5": {
+      "deadline": "2026-10-15",
+      "gates": [
+        "Define governance framework boundaries",
+        "Establish legal opinion disclaimer and scope limits",
+        "Bind constitutional frameworks to international human rights treaties"
+      ]
+    },
+    "cycle_6": {
+      "deadline": "2026-11-15",
+      "gates": [
+        "Validate planetary governance coverage and coherence",
+        "Confirm no legal analysis beyond cataloging authority boundary",
+        "Promote to FEDERATION_CERTIFIED via Mapa attestation"
+      ]
+    }
+  },
+  "next_gates": [
+    "Cycle 4: Catalog and index all 10 data files + 10 directories",
+    "Cycle 4: Validate legal document metadata completeness",
+    "Cycle 5: Define governance framework boundaries and legal scope",
+    "Cycle 6: Validate planetary governance coverage",
+    "Promote to FEDERATION_CERTIFIED when all gates close"
+  ],
+  "preservation_notes": {
+    "immutable_identity": "GitHub commit SHA + legal document registry form immutable anchor",
+    "lineage_authority": "legal framework relationships documented per jurisdiction",
+    "cross_surface_identity": "GitHub KOS repository; Drive integration TOKEN_VAZIO until Cycle 5",
+    "refactoring_discipline": "All legal documents preserved; no editorial opinions inserted; documentation-only"
+  },
+  "refactoring_discipline": {
+    "rename_safety": "document identifiers preserved; semantic scope unchanged",
+    "move_safety": "jurisdiction and framework lineage maintained",
+    "delete_safety": "append-only; deletions forbidden (historical record immutable)",
+    "content_preservation": "100%; all legal texts preserved verbatim with original source attribution"
+  },
+  "cross_surface_binding": {
+    "github_repo_url": "https://github.com/instituto-rafael/lgpd-constituicoes-planetaria-paises-onu-direitos-humanos-e-fundamentais-de-cada-continents-geologic",
+    "drive_custody_receipt": "TOKEN_VAZIO until Cycle 5 (if Drive integration needed)",
+    "mapa_federation_anchor": "rafaelmeloreisnovo/Mapa (legal authority registry)",
+    "legal_framework_index": "Indexed by jurisdiction, treaty, and governance layer"
+  },
+  "quality_level": "Expandido",
+  "quality_assessment": {
+    "technical_completeness": "20-item catalog structure (10 files + 10 directories) documented; legal scope boundaries in progress",
+    "governance_discipline": "Fail-closed; legal opinions explicitly out-of-scope; TOKEN_VAZIO preserved",
+    "cross_repo_coherence": "Linked to international governance frameworks; planetary scope; KOS integration pending",
+    "evidence_binding": "Source documents cataloged; legal framework relationships TOKEN_VAZIO until Cycle 5"
+  },
+  "refactoring_status": "NOT_STARTED",
+  "refactoring_phase": 0,
+  "handoff": {
+    "f_ok": "LGPD product card created; legal governance repository identified; 20-item catalog structure established; Cycle 4-6 gates defined",
+    "f_gap": "Data catalog indexing incomplete (TV-DATA, Cycle 4); governance framework boundaries not yet defined (TV-BOUNDARY, Cycle 5); Drive integration TOKEN_VAZIO; cross-repo legal framework alignment TOKEN_VAZIO",
+    "f_next": "Implement data catalog indexing (10 files + 10 directories with metadata); refactor README with navigation header; define legal opinion disclaimer"
+  }
+}
