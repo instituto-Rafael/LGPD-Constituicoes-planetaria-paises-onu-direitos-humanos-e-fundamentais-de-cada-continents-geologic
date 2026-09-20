@@ -1,0 +1,18 @@
+MANIFESTO — LICENCIAMENTO E LIMITES DE USO V1
+Status: DRAFT / COUNSEL_REVIEW=TOKEN_VAZIO
+
+1. Textos autorais originais deste manifesto podem ser distribuídos sob CC BY-NC-SA 4.0, salvo indicação específica em contrário.
+
+2. Leis, normas, documentos oficiais, SDS/FDS, artigos científicos, imagens, marcas, dados e materiais de terceiros permanecem sujeitos aos direitos e termos de suas fontes. A mera referência, hash ou presença no repositório não relicencia material de terceiro.
+
+3. Nenhuma licença autoriza publicação de dados pessoais, dados de saúde, segredos comerciais, credenciais ou evidência sensível sem base jurídica e autorização aplicável.
+
+4. Hashes, commits, timestamps e manifests demonstram identidade/integridade/proveniência operacional dentro de seu escopo; não constituem prova automática de toxicidade, causalidade, autoria exclusiva, conformidade jurídica ou verdade material.
+
+5. O conteúdo é de pesquisa, educação e governança de evidência. Não substitui SDS/FDS do produto, avaliação de higiene ocupacional, toxicologia, medicina, engenharia de segurança ou aconselhamento jurídico.
+
+6. Claims de perigo, letalidade, carcinogenicidade, segurança ou nexo causal devem ser específicos de substância/produto/exposição e sustentados por fonte e evidência adequadas.
+
+legal_compliance_claim=false
+certification_claim=false
+counsel_review=TOKEN_VAZIO
