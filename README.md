@@ -1,5 +1,9 @@
 # LGPD-Constituicoes-planetaria
 
+
+> [!IMPORTANT]
+> **Manifesto de materiais de impressão, risco químico e custódia:** este repositório agora contém uma rota explícita para documentar riscos possíveis de tintas/toners e preservar evidência técnica sem confundir hash com verdade científica. A LGPD se aplica à camada de **dados pessoais** — inclusive dados de saúde, quando presentes — e não substitui toxicologia, SDS/FDS ou SST. Veja [MANIFESTO_IMPRESSAO_MATERIAIS_RISCO_CUSTODIA_V1.md](docs/MANIFESTO_IMPRESSAO_MATERIAIS_RISCO_CUSTODIA_V1.md).
+
 **Estado:** `ACTIVE`
 **Proprietário lógico:** `research-governance`
 **Repositório:** [`instituto-Rafael/LGPD-Constituicoes-planetaria-...`](https://github.com/instituto-Rafael/LGPD-Constituicoes-planetaria-paises-onu-direitos-humanos-e-fundamentais-de-cada-continents-geologic)
