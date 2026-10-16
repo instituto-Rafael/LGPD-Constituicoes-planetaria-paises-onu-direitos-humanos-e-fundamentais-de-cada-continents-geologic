@@ -18,6 +18,20 @@ Documentação e dados sobre LGPD, constituições planetárias, direitos humano
 - [`docs/ROBOTICS_INFORMATION_GOVERNANCE_FIRST_QUESTION.md`](docs/ROBOTICS_INFORMATION_GOVERNANCE_FIRST_QUESTION.md) — proposta auditável para responsabilidade informacional, conscientização do titular, sistemas automatizados e First Question Gate
 - [`indices/robotics_information_governance.md`](indices/robotics_information_governance.md) — índice semântico das camadas, relações, anomalias, paradoxos e transformações analíticas
 
+## Protocolo de privacidade e custódia documental
+
+**Estado: PROPOSTO / NÃO PROMOVER sem revisão independente.**
+
+Este repositório público recebe somente regras de governança e modelos desidentificados. Dados pessoais, registros financeiros, documentos trabalhistas, testemunhos identificáveis e alegações envolvendo terceiros não devem ser incluídos em commits, PRs, logs ou índices públicos.
+
+O ingresso de material privado exige finalidade e base jurídica identificadas, minimização, controle de acesso verificado, origem preservada, rastreabilidade de transformações e retenção avaliada. Um hash comprova correspondência de bytes, não autenticidade ou veracidade dos fatos. Participação profissional em evento político não implica preferência ou filiação partidária.
+
+**Estados:** RELATO_REGISTRADO; DOCUMENTO_NAO_LOCALIZADO; FONTE_RECEBIDA_NAO_AUTENTICADA; CUSTODIA_VERIFICADA; CORROBORACAO_PARCIAL; REVISAO_JURIDICA_PENDENTE.
+
+**Regras:** SOURCE ≠ ARTIFACT ≠ EXECUTION ≠ EVIDENCE ≠ CLAIM; TOKEN_VAZIO ≠ 0; claim_allowed=false até verificação proporcional. A norma aplicável a um fato histórico e a norma aplicável ao tratamento atual de seus registros são duas análises distintas. A LGPD brasileira não substitui a análise da legislação do local e tempo dos fatos.
+
+Revisar também [a remediação de privacidade histórica](docs/PRIVACY_LICENSE_REMEDIATION_2026-07-29.md) antes de qualquer circulação de material.
+
 ## Robotics Information Governance — V1
 
 O repositório passa a distinguir explicitamente:
