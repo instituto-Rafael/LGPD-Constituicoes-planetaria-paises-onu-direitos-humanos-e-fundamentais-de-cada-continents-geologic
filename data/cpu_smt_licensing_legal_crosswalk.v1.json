@@ -1,0 +1,254 @@
+{
+  "schema_version": "1.0.0",
+  "proposal_id": "RAFAELIA-CPU-SMT-FAIR-LICENSING-20261020",
+  "kind": "legal_technical_research_pre_registration",
+  "status": "PROPOSED_AUDITABLE",
+  "claim_allowed": false,
+  "merge_allowed": false,
+  "producer_repo": "instituto-Rafael/LGPD-Constituicoes-planetaria-paises-onu-direitos-humanos-e-fundamentais-de-cada-continents-geologic",
+  "consumer_router_repo": "rafaelmeloreisnovo/Mapa",
+  "governing_rule": "SOURCE!=ARTIFACT!=EXECUTION!=EVIDENCE!=CLAIM",
+  "model": {
+    "physical_core_count": "P",
+    "logical_processor_count": "L",
+    "virtual_cpu_count": "V",
+    "cache_topology": "K",
+    "buffer_topology": "B",
+    "contract_license_units": "C",
+    "contractual_billing_metric": "M",
+    "audit_ratio": "C/P only when P verified positive; never a legal violation predicate"
+  },
+  "claims": [
+    {
+      "id": "H1",
+      "description": "Where licensing promises physical independent compute capacity, per-logical-thread charging without transparent justification may merit contractual/consumer/competition review",
+      "state": "HYPOTHESIS",
+      "proven": false
+    },
+    {
+      "id": "H0",
+      "description": "Clear lawful contracts may price by logical thread, instance or users even with physically shared resources",
+      "state": "RIVAL_HYPOTHESIS",
+      "proven": false
+    }
+  ],
+  "invariants": [
+    "cache_L1_size_does_not_universally_define_core",
+    "logical_processor_is_not_physical_core",
+    "virtual_cpu_is_not_dedicated_physical_core",
+    "billing_multiplier_is_not_proof_of_crime",
+    "consumer_law_requires_consumer_relationship_or_valid_legal_basis",
+    "international_copyright_does_not_fix_per_core_prices",
+    "US_constitutional_amendments_not_automatically_private_contract_regulation",
+    "hardware_facts_not_legal_liability",
+    "TOKEN_VAZIO!=0"
+  ],
+  "normative_crosswalk": [
+    {
+      "id": "BR-01",
+      "jurisdiction": "BR",
+      "source": "Lei 9.609/1998",
+      "articles": [
+        "1",
+        "2",
+        "9",
+        "10"
+      ],
+      "topic": "software_copyright_and_license",
+      "binding": "statute",
+      "supports": "license_contingent_on_contract",
+      "does_not_support": "universal_one_license_per_L1",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9609.htm"
+    },
+    {
+      "id": "BR-02",
+      "jurisdiction": "BR",
+      "source": "Lei 10.406/2002",
+      "articles": [
+        "421",
+        "422",
+        "884",
+        "885",
+        "886"
+      ],
+      "topic": "good_faith_unjust_enrichment",
+      "binding": "statute",
+      "supports": "individual_analysis_when_no_just_cause",
+      "does_not_support": "automatic_illegality_of_logical_thread_billing",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm"
+    },
+    {
+      "id": "BR-03",
+      "jurisdiction": "BR",
+      "source": "Lei 8.078/1990",
+      "articles": [
+        "39-V",
+        "39-X",
+        "46",
+        "51"
+      ],
+      "topic": "consumer_contracts",
+      "binding": "conditional_statute",
+      "supports": "unfair_terms_if_consumer_and_elements_proven",
+      "does_not_support": "automatic_business_to_business_CDC",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm"
+    },
+    {
+      "id": "BR-04",
+      "jurisdiction": "BR",
+      "source": "Lei 12.529/2011",
+      "articles": [
+        "36"
+      ],
+      "topic": "competition",
+      "binding": "statute",
+      "supports": "case_specific_competition_review",
+      "does_not_support": "high_price_or_C_gt_P_alone_violates_antitrust",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12529.htm"
+    },
+    {
+      "id": "BR-05",
+      "jurisdiction": "BR",
+      "source": "Lei 13.709/2018",
+      "articles": [
+        "5",
+        "6",
+        "7",
+        "18",
+        "37",
+        "46"
+      ],
+      "topic": "personal_data_governance",
+      "binding": "conditional_statute",
+      "supports": "personal_identifiers_or_contract_logs_processing_controls",
+      "does_not_support": "core_pricing_regulation",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm"
+    },
+    {
+      "id": "INTERNATIONAL-01",
+      "jurisdiction": "WTO_MEMBERS",
+      "source": "TRIPS",
+      "articles": [
+        "9",
+        "10"
+      ],
+      "topic": "program_copyright",
+      "binding": "treaty_obligations",
+      "supports": "software_copyright",
+      "does_not_support": "hardware_pricing_formula",
+      "url": "https://www.wto.org/ENGLISH/docs_e/legal_e/31bis_trips_04_e.htm"
+    },
+    {
+      "id": "US-01",
+      "jurisdiction": "US",
+      "source": "US Constitution Amendments I IV V",
+      "articles": [
+        "I",
+        "IV",
+        "V"
+      ],
+      "topic": "state_action_rights",
+      "binding": "constitutional",
+      "supports": "circumscribed_state_action_protection",
+      "does_not_support": "direct_general_private_software_license_cap",
+      "url": "https://www.law.cornell.edu/constitution/fifth_amendment"
+    },
+    {
+      "id": "EU-01",
+      "jurisdiction": "EU",
+      "source": "Directive 2009/24/EC",
+      "articles": [
+        "1",
+        "4",
+        "5",
+        "6"
+      ],
+      "topic": "software_copyright",
+      "binding": "directive",
+      "supports": "program_protection_and_lawful_use_exceptions",
+      "does_not_support": "SMT_fee_table",
+      "url": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32009L0024"
+    }
+  ],
+  "unknowns": [
+    {
+      "id": "U1",
+      "field": "CAD_Trust_Trade_Fair_legal_referent",
+      "value": "TOKEN_VAZIO"
+    },
+    {
+      "id": "U2",
+      "field": "supplier_customer_licensing_contract",
+      "value": "TOKEN_VAZIO"
+    },
+    {
+      "id": "U3",
+      "field": "invoice_and_paid_amount",
+      "value": "TOKEN_VAZIO"
+    },
+    {
+      "id": "U4",
+      "field": "SKU/cache/SMT/VM_binding",
+      "value": "TOKEN_VAZIO"
+    },
+    {
+      "id": "U5",
+      "field": "market_definition_and_harm",
+      "value": "TOKEN_VAZIO"
+    },
+    {
+      "id": "U6",
+      "field": "jurisdiction_legal_opinion",
+      "value": "TOKEN_VAZIO"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G0",
+      "name": "producer_repo_identified",
+      "status": "OBSERVED"
+    },
+    {
+      "id": "G1",
+      "name": "primary_legal_source_scope",
+      "status": "SCOPED_RESEARCH"
+    },
+    {
+      "id": "G2",
+      "name": "hardware_independent_replication",
+      "status": "TOKEN_VAZIO"
+    },
+    {
+      "id": "G3",
+      "name": "contract_invoice_reconciliation",
+      "status": "TOKEN_VAZIO"
+    },
+    {
+      "id": "G4",
+      "name": "applicable_jurisdiction_competition_case",
+      "status": "TOKEN_VAZIO"
+    },
+    {
+      "id": "G5",
+      "name": "independent_expert_review",
+      "status": "TOKEN_VAZIO"
+    },
+    {
+      "id": "G6",
+      "name": "exact_head_CI_and_human_promotion",
+      "status": "TOKEN_VAZIO"
+    }
+  ],
+  "tests_proposed": [
+    "FT1_cache_topology_counterexample",
+    "FT2_SMT_thread_vs_core",
+    "FT3_parallel_performance_without_new_L1",
+    "FT4_virtual_CPU_mapping",
+    "FJ1_clear_contract_and_value",
+    "FJ2_no_dominance_or_no_effects",
+    "FJ3_privacy_only_when_personal_data",
+    "FJ4_professional_legal_review"
+  ],
+  "data_policy": "PUBLIC_DESIDENTIFIED_ONLY; private EULA/invoice/identifiers excluded from public repos",
+  "rollback": "append successor with supersedes; no force-push; no merge until review"
+}
