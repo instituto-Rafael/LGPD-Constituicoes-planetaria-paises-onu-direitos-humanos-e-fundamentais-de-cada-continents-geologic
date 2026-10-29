@@ -66,3 +66,8 @@ Dossiês anteriores ficam preservados em sua branch original. Nada é fundido se
 
 ## Controle/receipt
 `MU-BLAKR-AUDIT-V3-20261029 | kind=CROSSWALK_UPSTREAM_VS_ARCHIVES | parent=LGPD-PR35-V1 + BLAKR-predecessor-V2 | status=DRAFT/HOLD | evidence=github:compare_commit stats+300 file rows; CommonCrawl catalog; link-based institutional references | gap=WARC, HTTP original, actual server logs, OneDrive and Avix target | claim_allowed=false | next=metadata raw capture/pDNS and source-specific review | rollback=close Draft PR + preserve predecessors`.
+
+
+## Successor evidence Δ — BLAKE3 pinned AVX-512 source gap (2026-10-29)
+New producer-fork DRAFT [PR#184](https://github.com/rafaelmeloreisnovo/BLAKE3/pull/184) holds a verified upstream/source parity note: upstream 2026-10-01 `f55849f` added `jb 4f` and `test_xof_many_rounds_down`; those exact elements are absent at fork `718a8f8` (paired Git blob readback). Upstream authors characterize a hidden-but-public API xof_many zero-block OOB path, not the documented `blake3` public API. Source parity gap **verified**, runtime impact **NOT_TESTED**, planned fix **NOT_EXECUTED**; producer rules prevent changing crypto source in this historical LGPD audit. No inference to IIS, website history or archive alteration.
+Provider source: https://github.com/BLAKE3-team/BLAKE3/commit/f55849f89cd85083c1c9daa2c5de20766f309c00 . Source-specific evidence record: https://github.com/rafaelmeloreisnovo/BLAKE3/blob/audit/blakr-lgpd-archive-crosswalk-20261029-hold/audit/forensics/BLAKR_BLAKE3_AVX512_UPSTREAM_PARITY_20261029.md .
